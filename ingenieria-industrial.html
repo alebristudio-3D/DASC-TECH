@@ -845,11 +845,24 @@ body {
   }
 }
 </style>
+<link rel="stylesheet" href="css/career-standard.css?v=20260615">
 <div class="career-page" id="top">
     
     <section class="dasc-hero" aria-labelledby="hero-title">
       <div class="dasc-hero__bg" aria-hidden="true"></div>
       <div class="dasc-hero__overlay" aria-hidden="true"></div>
+
+      <header class="dasc-header dasc-container" aria-label="Navegación principal">
+        <a class="dasc-logo" href="#top" aria-label="DASC Instituto Tecnológico Universitario"><span>DASC</span></a>
+        <nav class="dasc-nav" aria-label="Secciones de la página">
+          <a href="#experiencia">Experiencia</a>
+          <a href="#plan-estudios">Plan</a>
+          <a href="#sesion-informativa">Sesión informativa</a>
+          <a href="#campo-laboral">Campo laboral</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <a class="dasc-header__wa js-wa-link" href="https://wa.me/5212223606438" target="_blank" rel="noopener noreferrer" data-origin="header" data-message="Hola, quiero informes de Ingeniería Industrial.">WhatsApp</a>
+      </header>
 
       <div class="dasc-container dasc-hero__grid">
         <div class="dasc-hero__content">
@@ -889,31 +902,20 @@ body {
           </div>
         </div>
 
-        <aside class="dasc-hero-card" aria-label="Resumen de la carrera">
-          <div class="dasc-hero-card__top">
-            <span class="dasc-chip">DASC Puebla</span>
-            <span class="dasc-chip dasc-chip--light">RVOE</span>
-          </div>
-          <h2>Convierte los procesos en resultados medibles.</h2>
-          <p>
-            Forma parte de una carrera enfocada en producción, calidad, costos, logística, mejora continua, automatización y digitalización industrial.
-          </p>
-          <div class="dasc-mini-stats">
-            <div>
-              <strong>+45</strong>
-              <span>años de trayectoria DASC</span>
-            </div>
-            <div>
-              <strong>SEP</strong>
-              <span>validez oficial</span>
-            </div>
-          </div>
+        <aside class="dasc-hero-card" aria-label="Enfoque de la carrera">
+          <span class="dasc-card-label">Industrial stack</span>
+          <ul>
+            <li><span>01</span>Producción, operaciones y productividad</li>
+            <li><span>02</span>Calidad, mejora continua y Core Tools</li>
+            <li><span>03</span>Logística, cadena de suministro y costos</li>
+            <li><span>04</span>Automatización, robótica y digitalización industrial</li>
+          </ul>
         </aside>
       </div>
     </section>
 
     
-    <section class="dasc-section dasc-section--intro" aria-labelledby="value-title">
+    <section class="dasc-section dasc-section--intro" id="experiencia" aria-labelledby="value-title">
       <div class="dasc-container dasc-split">
         <div>
           <span class="dasc-section-label">Propuesta de valor</span>
@@ -1058,7 +1060,7 @@ body {
     </section>
 
     
-    <section class="dasc-section dasc-section--cta" aria-labelledby="session-title">
+    <section class="dasc-section dasc-section--cta" id="sesion-informativa" aria-labelledby="session-title">
       <div class="dasc-container dasc-session">
         <div>
           <span class="dasc-section-label dasc-section-label--dark">Sesión informativa</span>
@@ -1085,7 +1087,7 @@ body {
     </section>
 
     
-    <section class="dasc-section" aria-labelledby="jobs-title">
+    <section class="dasc-section" id="campo-laboral" aria-labelledby="jobs-title">
       <div class="dasc-container">
         <div class="dasc-section-head">
           <span class="dasc-section-label">Campo laboral</span>
