@@ -88,15 +88,19 @@
     strip.setAttribute('aria-label', 'Misiones para explorar DASC');
     strip.innerHTML = [
       '<div class="site-container site-mission-strip__inner">',
-      '<div class="site-mission-head"><span>Modo aventura academica</span><h2>Desbloquea tu ruta tecnologica.</h2><p>Explora programas, compara modalidades y agenda informes como una ruta de decision clara.</p></div>',
+      '<div class="site-mission-head"><span>Modo aventura académica</span><h2>Desbloquea tu ruta tecnológica.</h2><p>Explora programas, compara modalidades y agenda informes como una ruta de decisión clara.</p></div>',
       '<div class="site-mission-grid">',
       '<a class="site-mission-card" href="oferta-educativa.html" data-track="mission_offer"><strong>01</strong><span>Explora carreras</span><i></i></a>',
       '<a class="site-mission-card" href="modalidad-hyflex.html" data-track="mission_hyflex"><strong>02</strong><span>Activa HyFlex</span><i></i></a>',
-      '<a class="site-mission-card" href="https://wa.me/5212223606438?text=Hola%20DASC%2C%20quiero%20recibir%20orientaci%C3%B3n%20para%20elegir%20mi%20programa." data-track="mission_whatsapp" target="_blank" rel="noopener noreferrer"><strong>03</strong><span>Agenda asesoria</span><i></i></a>',
+      '<a class="site-mission-card" href="https://wa.me/5212223606438?text=Hola%20DASC%2C%20quiero%20recibir%20orientaci%C3%B3n%20para%20elegir%20mi%20programa." data-track="mission_whatsapp" target="_blank" rel="noopener noreferrer"><strong>03</strong><span>Agenda asesoría</span><i></i></a>',
       '</div>',
       '</div>'
     ].join('');
     homeHero.insertAdjacentElement('afterend', strip);
+  }
+
+  function normalizeText(value){
+    return String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
   function setTagList(container, tags){
@@ -123,33 +127,33 @@
 
     const routes = {
       tech: {
-        label: 'Perfil: crear tecnologia',
-        title: 'Sistemas Computacionales e Ingenieria en Software',
-        copy: 'Si te interesa programar, automatizar y crear soluciones digitales, esta ruta conecta bases tecnicas, pensamiento logico y proyectos aplicados.',
-        tags: ['Programacion', 'Datos', 'Proyectos TI'],
+        label: 'Perfil: crear tecnología',
+        title: 'Sistemas Computacionales e Ingeniería en Software',
+        copy: 'Si te interesa programar, automatizar y crear soluciones digitales, esta ruta conecta bases técnicas, pensamiento lógico y proyectos aplicados.',
+        tags: ['Programación', 'Datos', 'Proyectos TI'],
         href: 'oferta-educativa.html#programas-dasc',
         activeSteps: 3
       },
       business: {
         label: 'Perfil: dirigir negocios',
-        title: 'Administracion y Sistemas, Mercadotecnia Digital o Maestrias',
-        copy: 'Para quien quiere liderar, vender, analizar informacion y tomar decisiones, esta ruta mezcla gestion, estrategia digital y herramientas tecnologicas.',
-        tags: ['Negocios', 'Analitica', 'Liderazgo'],
+        title: 'Administración y Sistemas, Mercadotecnia Digital o Maestrías',
+        copy: 'Para quien quiere liderar, vender, analizar información y tomar decisiones, esta ruta mezcla gestión, estrategia digital y herramientas tecnológicas.',
+        tags: ['Negocios', 'Analítica', 'Liderazgo'],
         href: 'oferta-educativa.html#programas-dasc',
         activeSteps: 3
       },
       creative: {
-        label: 'Perfil: disenar experiencias',
-        title: 'Diseno Interactivo y Mercadotecnia Digital',
-        copy: 'Si te atrae crear interfaces, contenidos, marcas y experiencias digitales, esta ruta combina creatividad, tecnologia y comunicacion visual.',
+        label: 'Perfil: diseñar experiencias',
+        title: 'Diseño Interactivo y Mercadotecnia Digital',
+        copy: 'Si te atrae crear interfaces, contenidos, marcas y experiencias digitales, esta ruta combina creatividad, tecnología y comunicación visual.',
         tags: ['UX/UI', 'Contenido', 'Experiencia digital'],
         href: 'diseno-interactivo.html',
         activeSteps: 2
       },
       operations: {
         label: 'Perfil: optimizar procesos',
-        title: 'Ingenieria Industrial y Maestria en Calidad y Productividad',
-        copy: 'Para resolver problemas de productividad, mejora continua y operacion, esta ruta se enfoca en procesos, sistemas y resultados medibles.',
+        title: 'Ingeniería Industrial y Maestría en Calidad y Productividad',
+        copy: 'Para resolver problemas de productividad, mejora continua y operación, esta ruta se enfoca en procesos, sistemas y resultados medibles.',
         tags: ['Procesos', 'Calidad', 'Productividad'],
         href: 'ingenieria-industrial.html',
         activeSteps: 2
@@ -442,14 +446,14 @@
 
     const profileMap = [
       { key: 'all', label: 'Todo' },
-      { key: 'tech', label: 'Tecnologia' },
+      { key: 'tech', label: 'Tecnología' },
       { key: 'business', label: 'Negocios' },
       { key: 'creative', label: 'Creatividad' },
-      { key: 'operations', label: 'Operacion' }
+      { key: 'operations', label: 'Operación' }
     ];
 
     cards.forEach((card) => {
-      const text = card.textContent.toLowerCase();
+      const text = normalizeText(card.textContent);
       const profiles = [];
       if(/software|sistemas|computacionales|ti|datos|nube|programacion/.test(text)) profiles.push('tech');
       if(/administracion|mercadotecnia|negocio|finanzas|gestion|empresa/.test(text)) profiles.push('business');
@@ -488,41 +492,41 @@
     const goals = {
       start: {
         kicker: 'Ruta sugerida',
-        title: 'Licenciaturas con base tecnologica',
-        copy: 'Si estas por iniciar tu formacion profesional, compara Administracion y Sistemas, Mercadotecnia Digital, Diseno Interactivo y Sistemas Computacionales.',
-        tags: ['Base profesional', '3 anos', 'HyFlex'],
+        title: 'Licenciaturas con base tecnológica',
+        copy: 'Si estás por iniciar tu formación profesional, compara Administración y Sistemas, Mercadotecnia Digital, Diseño Interactivo y Sistemas Computacionales.',
+        tags: ['Base profesional', 'Duración variable', 'HyFlex'],
         href: '#programas-dasc',
         keywords: ['administracion', 'mercadotecnia', 'diseno', 'sistemas']
       },
       work: {
         kicker: 'Ruta para crecer',
-        title: 'Maestrias y Educacion Continua',
-        copy: 'Si ya trabajas y quieres mejorar tu perfil, revisa maestrias, cursos y programas con flexibilidad para combinar estudio y responsabilidades.',
-        tags: ['Especializacion', 'Trabajo', 'Flexibilidad'],
+        title: 'Maestrías y Educación Continua',
+        copy: 'Si ya trabajas y quieres mejorar tu perfil, revisa maestrías, cursos y programas con flexibilidad para combinar estudio y responsabilidades.',
+        tags: ['Especialización', 'Trabajo', 'Flexibilidad'],
         href: '#programas-dasc',
         keywords: ['maestria', 'educacion continua']
       },
       create: {
         kicker: 'Ruta creativa digital',
-        title: 'Diseno Interactivo, Software y Sistemas',
-        copy: 'Para crear productos digitales conviene mirar diseno de experiencias, programacion, interfaces y proyectos tecnologicos aplicados.',
+        title: 'Diseño Interactivo, Software y Sistemas',
+        copy: 'Para crear productos digitales conviene mirar diseño de experiencias, programación, interfaces y proyectos tecnológicos aplicados.',
         tags: ['Producto digital', 'UX/UI', 'Software'],
         href: '#programas-dasc',
         keywords: ['diseno', 'software', 'sistemas']
       },
       lead: {
         kicker: 'Ruta de liderazgo',
-        title: 'Administracion, Mercadotecnia y Maestria en Administracion',
-        copy: 'Si tu meta es dirigir equipos o negocios, enfocate en gestion, estrategia, comunicacion, datos y toma de decisiones.',
-        tags: ['Direccion', 'Estrategia', 'Gestion'],
+        title: 'Administración, Mercadotecnia y Maestría en Administración',
+        copy: 'Si tu meta es dirigir equipos o negocios, enfócate en gestión, estrategia, comunicación, datos y toma de decisiones.',
+        tags: ['Dirección', 'Estrategia', 'Gestión'],
         href: '#programas-dasc',
         keywords: ['administracion', 'mercadotecnia']
       },
       process: {
         kicker: 'Ruta de mejora',
-        title: 'Ingenieria Industrial y Calidad y Productividad',
-        copy: 'Para mejorar procesos, costos, calidad y operacion, esta ruta conecta ingenieria, sistemas productivos y mejora continua.',
-        tags: ['Procesos', 'Calidad', 'Operacion'],
+        title: 'Ingeniería Industrial y Calidad y Productividad',
+        copy: 'Para mejorar procesos, costos, calidad y operación, esta ruta conecta ingeniería, sistemas productivos y mejora continua.',
+        tags: ['Procesos', 'Calidad', 'Operación'],
         href: '#programas-dasc',
         keywords: ['industrial', 'calidad', 'productividad']
       }
@@ -546,7 +550,7 @@
       if(link) link.href = goal.href;
       setTagList(tags, goal.tags);
       cards.forEach((card) => {
-        const text = card.textContent.toLowerCase();
+        const text = normalizeText(card.textContent);
         const match = goal.keywords.some((keyword) => text.includes(keyword));
         card.classList.toggle('site-advisor-match', match);
       });
@@ -567,21 +571,21 @@
     const scenarios = {
       work: {
         kicker: 'Ruta recomendada',
-        title: 'Combina clase en vivo con repaso asincrono.',
+        title: 'Combina clase en vivo con revisión asíncrona.',
         copy: 'Ideal para quien trabaja: conserva contacto con docentes y usa grabaciones para reforzar temas cuando el horario laboral se cruza con la clase.',
-        week: ['Online en vivo', 'Plataforma', 'Campus', 'Replay', 'Asesoria']
+        week: ['En línea en vivo', 'Plataforma', 'Campus', 'Revisión', 'Asesoría']
       },
       distance: {
         kicker: 'Ruta a distancia',
-        title: 'Prioriza sesiones en linea y visitas clave al campus.',
-        copy: 'Si vives lejos, puedes reducir traslados, conectarte a clases en vivo y usar campus para momentos importantes de seguimiento o practica.',
-        week: ['Online en vivo', 'Replay', 'Plataforma', 'Online en vivo', 'Campus opcional']
+        title: 'Prioriza sesiones en línea y visitas clave al campus.',
+        copy: 'Si vives lejos, puedes reducir traslados, conectarte a clases en vivo y usar campus para momentos importantes de seguimiento o práctica.',
+        week: ['En línea en vivo', 'Revisión', 'Plataforma', 'En línea en vivo', 'Campus opcional']
       },
       variable: {
         kicker: 'Ruta flexible',
-        title: 'Alterna formatos segun la carga de tu semana.',
+        title: 'Alterna formatos según la carga de tu semana.',
         copy: 'Cuando tu horario cambia, HyFlex ayuda a mantener continuidad: usas clase en vivo cuando puedes y materiales grabados cuando necesitas recuperar ritmo.',
-        week: ['Replay', 'Online en vivo', 'Plataforma', 'Campus', 'Entrega digital']
+        week: ['Revisión', 'En línea en vivo', 'Plataforma', 'Campus', 'Entrega digital']
       }
     };
 
@@ -591,7 +595,7 @@
     const title = root.querySelector('[data-hyflex-title]');
     const copy = root.querySelector('[data-hyflex-copy]');
     const board = root.querySelector('.site-hyflex-planner__board');
-    const days = ['Lun', 'Mar', 'Mie', 'Jue', 'Vie'];
+    const days = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie'];
 
     function render(scenarioKey, shouldTrack = true){
       const scenario = scenarios[scenarioKey] || scenarios.work;
@@ -630,9 +634,9 @@
     visual.innerHTML = [
       '<div class="site-hyflex-core">HyFlex</div>',
       '<span style="--i:0">Campus</span>',
-      '<span style="--i:1">Online</span>',
-      '<span style="--i:2">Hibrido</span>',
-      '<span style="--i:3">Replay</span>'
+      '<span style="--i:1">En línea</span>',
+      '<span style="--i:2">Híbrido</span>',
+      '<span style="--i:3">Grabación</span>'
     ].join('');
     target.appendChild(visual);
   }
