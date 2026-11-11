@@ -129,9 +129,9 @@
       tech: {
         label: 'Perfil: crear tecnología',
         title: 'Sistemas Computacionales e Ingeniería en Software',
-        copy: 'Si te interesa programar, automatizar y crear soluciones digitales, esta ruta conecta bases técnicas, pensamiento lógico y proyectos aplicados.',
+        copy: 'Si te interesa programar, automatizar y crear soluciones digitales, compara Sistemas y Software: revisa sus materias, duración y distintos recorridos de formación.',
         tags: ['Programación', 'Datos', 'Proyectos TI'],
-        href: 'oferta-educativa.html#programas-dasc',
+        href: 'comparar-sistemas-software.html',
         activeSteps: 3
       },
       business: {
@@ -194,7 +194,7 @@
     const label = a.dataset.track || a.dataset.origin || a.dataset.waOrigin || a.textContent.trim().slice(0, 90);
     const payload = { click_label: label, click_url: href, page_path: location.pathname };
     if(href.includes('wa.me') || href.includes('api.whatsapp')){
-      track('click_whatsapp', { ...payload, event_category: 'lead' });
+      track('whatsapp_open', { ...payload, event_category: 'lead' });
     } else if(href.toLowerCase().includes('.pdf')){
       track('download_document', { ...payload, event_category: 'document' });
     } else {
@@ -206,8 +206,9 @@
   document.addEventListener('submit', (event) => {
     const form = event.target.closest('form');
     if(!form) return;
+    if(form.matches('.software-composer, [data-admission-form]')) return;
     const name = form.getAttribute('name') || form.id || 'lead_form';
-    track('submit_lead_form', { form_name: name, page_path: location.pathname, event_category: 'lead' });
+    track('contact_message_prepare', { form_name: name, page_path: location.pathname, event_category: 'lead' });
   });
 
   function setupHeaderState(){
@@ -359,6 +360,10 @@
       canvas.className = 'site-tech-canvas';
       canvas.setAttribute('aria-hidden', 'true');
       hero.insertBefore(canvas, hero.firstChild);
+      if(getComputedStyle(canvas).display === 'none') {
+        canvas.remove();
+        return;
+      }
       animateNetwork(canvas, hero);
     });
   }
@@ -569,24 +574,9 @@
     if(!root) return;
 
     const scenarios = {
-      work: {
-        kicker: 'Ruta recomendada',
-        title: 'Combina clase en vivo con revisión asíncrona.',
-        copy: 'Ideal para quien trabaja: conserva contacto con docentes y usa grabaciones para reforzar temas cuando el horario laboral se cruza con la clase.',
-        week: ['En línea en vivo', 'Plataforma', 'Campus', 'Revisión', 'Asesoría']
-      },
-      distance: {
-        kicker: 'Ruta a distancia',
-        title: 'Prioriza sesiones en línea y visitas clave al campus.',
-        copy: 'Si vives lejos, puedes reducir traslados, conectarte a clases en vivo y usar campus para momentos importantes de seguimiento o práctica.',
-        week: ['En línea en vivo', 'Revisión', 'Plataforma', 'En línea en vivo', 'Campus opcional']
-      },
-      variable: {
-        kicker: 'Ruta flexible',
-        title: 'Alterna formatos según la carga de tu semana.',
-        copy: 'Cuando tu horario cambia, HyFlex ayuda a mantener continuidad: usas clase en vivo cuando puedes y materiales grabados cuando necesitas recuperar ritmo.',
-        week: ['Revisión', 'En línea en vivo', 'Plataforma', 'Campus', 'Entrega digital']
-      }
+      work: { kicker: 'Organiza tu consulta', title: 'Confirma la compatibilidad con tu jornada laboral.', copy: 'Pregunta por el horario del programa, asistencia, evaluaciones y actividades presenciales. Las grabaciones de apoyo no sustituyen automáticamente la asistencia.', week: ['Horario de clase', 'Asistencia', 'Evaluaciones', 'Prácticas', 'Recursos de apoyo'] },
+      distance: { kicker: 'Organiza tu consulta', title: 'Identifica qué actividades requieren campus.', copy: 'Confirma la modalidad disponible para tu programa y las prácticas o evaluaciones que podrían requerir presencia antes de planear tus traslados.', week: ['Modalidad', 'Campus', 'Prácticas', 'Evaluaciones', 'Conectividad'] },
+      variable: { kicker: 'Organiza tu consulta', title: 'Consulta las reglas antes de elegir un formato.', copy: 'Pregunta cuándo se elige y cuándo se puede cambiar el formato. Un horario variable no implica autorización para alternar libremente cada semana.', week: ['Elección de formato', 'Cambios', 'Asistencia', 'Entregas', 'Acompañamiento'] }
     };
 
     const buttons = Array.from(root.querySelectorAll('[data-hyflex-scenario]'));
@@ -595,7 +585,7 @@
     const title = root.querySelector('[data-hyflex-title]');
     const copy = root.querySelector('[data-hyflex-copy]');
     const board = root.querySelector('.site-hyflex-planner__board');
-    const days = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie'];
+    const days = ['01', '02', '03', '04', '05'];
 
     function render(scenarioKey, shouldTrack = true){
       const scenario = scenarios[scenarioKey] || scenarios.work;
@@ -664,12 +654,12 @@
   setupHeaderState();
   setupTabs();
   setupScrollReveal();
-  setupCounters();
+  // Keep published figures stable while the page loads.
   setupTechCanvas();
   setupOfferProfiles();
   setupRouteLab();
   setupOfferAdvisor();
   setupHyflexPlanner();
   setupHyflexVisual();
-  setupProgramMeters();
+
 })();

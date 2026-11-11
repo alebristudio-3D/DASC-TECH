@@ -1,0 +1,84 @@
+/* Shared visual system. Program accent variables remain owned by each page. */
+body main h1{font-size:56px!important;line-height:1.12!important;font-weight:700!important}
+body main h2{font-size:34px!important;line-height:1.22!important;font-weight:700!important}
+body main h3{font-size:22px;line-height:1.3;font-weight:700}
+body main p{font-weight:500!important}
+body main :is(.dasc-hero,.dasc-hyflex-hero,.dasc-contact-hero){padding-top:52px;padding-bottom:52px}
+body main .dasc-hero__content h1{font-size:62px!important;max-width:780px!important}
+body main .dasc-hero__lead{font-size:17px!important;line-height:1.7!important}
+body .career-page{--logo-image:url('../assets/logo-DASC-Blanco.png')!important;--hero-image:url('../assets/hero-ingenieria-industrial-optimized.jpg')!important}
+body .career-page .dasc-hero__bg{opacity:1!important;filter:none!important;background-image:url('../assets/hero-ingenieria-industrial-optimized.jpg')!important}
+body .career-page .dasc-hero__overlay{background:linear-gradient(90deg,#071016f2,#071016cc 48%,#07101640)!important}
+body .career-page .dasc-btn--primary{color:#111!important;background:#969596!important}
+body .career-page .dasc-header .dasc-logo{background-image:url('../assets/logo-DASC-Blanco.png')!important}
+body #dasc-diseno-interactivo{--logo-image:url('../assets/logo-DASC-Blanco.png')!important;--hero-image:url('../assets/hero-diseno-interactivo-optimized.jpg')!important}
+body #dasc-diseno-interactivo .dasc-di-hero{background-image:linear-gradient(90deg,#0d101bea,#0d101b85),url('../assets/hero-diseno-interactivo-optimized.jpg')!important}
+body .dasc-oferta-page .dasc-hero{padding:54px 0!important;background:#003399!important}
+body .dasc-oferta-page .dasc-hero h1{font-size:48px!important;line-height:1.15!important}
+body .dasc-oferta-page .dasc-hero p{font-size:16px!important;line-height:1.7!important}
+body .dasc-oferta-page .dasc-hero-card{border:0!important;background:transparent!important;padding:0!important}
+body .dasc-oferta-page .dasc-hero-mini{border-radius:4px!important;background:#ffffff14!important;box-shadow:none!important}
+body .dasc-oferta-page .dasc-trust{border-radius:0!important;box-shadow:none!important;border-bottom:1px solid #dbe2e8;background:white!important}
+body .dasc-oferta-page .dasc-trust-item{border:0!important;background:white!important;border-radius:0!important;box-shadow:none!important}
+body .dasc-filter-btn{border-radius:4px!important;box-shadow:none!important}
+:root{--site-radius:8px;--site-shadow:0 6px 22px #1826380a}
+body{font-family:Montserrat,Arial,sans-serif;line-height:1.6}
+body :is(h1,h2,h3,h4,p,a,button,span){letter-spacing:0!important}
+.site-nav{height:82px}.site-brand-mark{font-size:36px}.site-brand-sub{font-weight:600}.site-menu>li>a,.site-menu>li>button{font-weight:650;border-radius:4px}
+.site-dropdown{border-radius:8px;box-shadow:0 16px 44px #16213c16}.site-dropdown a{border-radius:4px;font-weight:600}
+.site-header{backdrop-filter:none;background:#fff}.site-footer{background:#101b2a}.site-footer h3{color:#b6c8de}.site-footer a{font-weight:500}.site-footer .site-btn{display:inline-flex;font-size:13px;white-space:normal}
+body :is(.site-btn,.dasc-btn,.dasc-hyflex-btn,.dasc-contact-btn,.dasc-reg-btn,.dasc-becas-btn,.dasc-di-button){border-radius:5px!important;box-shadow:none!important;line-height:1.4;min-height:46px;font-weight:700!important;white-space:normal}
+body main :is(.site-card,.dasc-feature,.dasc-benefit,.dasc-program-card,.dasc-guide-card,.dasc-hyflex-card,.dasc-hyflex-benefit,.dasc-work-grid article,.dasc-di-work article,.dasc-career-card,.dasc-session-card,.dasc-contact-card,.dasc-reg-card){border-radius:8px!important;box-shadow:none!important}
+body main :is(.dasc-big-card,.dasc-hero-card,.dasc-hero-card-inner,.dasc-final-box,.dasc-contact-map-box,.calendar-panel,.dasc-becas-card){border-radius:8px!important;box-shadow:none!important}
+body main :is(.dasc-section-head,.dasc-section-title,.dasc-hyflex-section-head) h2{font-size:34px!important;line-height:1.2!important;font-weight:750!important;max-width:900px}
+body main :is(.dasc-section-head,.dasc-section-title,.dasc-hyflex-section-head) p{font-size:16px!important;line-height:1.75!important}
+body main :is(.dasc-kicker,.dasc-section-label,.dasc-hyflex-kicker){border-radius:0!important;background:transparent!important;padding-left:0!important;font-size:12px!important;font-weight:700!important}
+.site-tech-canvas{opacity:.18}.site-program-meter{display:none!important}
+.site-page-hero{background:#003399;padding:64px 0}.site-page-hero h1{font-size:48px;line-height:1.15}.site-page-hero p{font-size:17px}
+.site-route-lab.site-mission-strip{background:#f3f6f8!important;padding:64px 0!important;border-block:1px solid #dbe2e8}
+.site-route-lab:before,.site-route-lab__intro:after,.site-offer-advisor:after,.site-hyflex-planner:after{display:none!important}
+.site-route-lab__intro{border:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;padding:20px 24px 20px 0!important}
+.site-route-lab__console{background:#fff!important;border-radius:8px!important;box-shadow:none!important;color:#172033!important}
+.site-route-progress span{background:#edf1f5!important;color:#465568!important;border:0!important;border-radius:3px!important;font-size:11px!important}.site-route-progress span.is-active{background:#003399!important;color:white!important}
+.site-route-selector button{background:#fff!important;color:#172033!important;border:1px solid #c7d1de!important;border-radius:4px!important;font-weight:600!important}
+.site-route-selector button.is-active{background:#003399!important;color:#fff!important;border-color:#003399!important}
+.site-route-result{border-radius:0!important;padding:18px 0 0!important;border-top:1px solid #dbe2e8!important}.site-route-result:before{display:none}.site-route-result h3{font-size:25px!important;line-height:1.25!important}
+.site-route-result a,.site-offer-advisor__result a,.site-hyflex-planner__result a{border-radius:4px!important;box-shadow:none!important}
+.site-route-lab__intro h2,.site-offer-advisor h3,.site-hyflex-planner h2{font-size:32px!important;line-height:1.2!important}
+.site-route-tags b,.site-route-lab__badges b,.site-offer-advisor__tags b{background:#eef2f6!important;border-radius:3px!important;font-weight:600!important;font-size:11px!important}
+.site-offer-advisor,.site-hyflex-planner{border-radius:8px!important;background:#f4f7fa!important;box-shadow:none!important}
+.site-offer-advisor__result,.site-hyflex-planner__result{border-radius:4px!important;box-shadow:none!important}
+.site-offer-advisor__choices button,.site-hyflex-planner__choices button,.site-profile-filter button{border-radius:4px!important;box-shadow:none!important}
+.site-hyflex-week div{border-radius:4px!important;box-shadow:none!important;padding:12px!important}.site-hyflex-week strong{font-size:16px!important}.site-hyflex-week div:after{animation:none!important;background:#003399!important;height:2px!important}
+body main .dasc-tabs{border-radius:8px!important;box-shadow:none!important}body main .dasc-tab{border-radius:4px!important;min-width:44px;min-height:44px;box-shadow:none!important}body main .dasc-panel{border-radius:4px!important;box-shadow:none!important}
+.site-comparison details,main details{border-bottom:1px solid #dbe2e8;padding:16px 0}main summary{cursor:pointer;font-weight:650}
+.dasc-home .dasc-hero{position:relative!important;background:#15232c url('../assets/hero-ingenieria-industrial-optimized.jpg') center 52%/cover!important;padding:76px 0 26px!important;min-height:620px;isolation:isolate}
+.dasc-home .dasc-hero:before{content:''!important;display:block!important;position:absolute!important;inset:0!important;background:linear-gradient(90deg,rgba(7,16,22,.94),rgba(7,16,22,.72) 48%,rgba(7,16,22,.12))!important;border-radius:0!important;pointer-events:none!important;z-index:0!important}
+.dasc-home .dasc-hero:after{display:none!important}.dasc-home .dasc-hero .site-tech-canvas{display:none}
+.dasc-home .dasc-hero-wrap{position:relative;z-index:2!important;display:block!important}.dasc-home .dasc-hero-wrap>div{max-width:730px}
+.dasc-home .dasc-hero-badge{background:none!important;border:0!important;padding:0!important;border-radius:0!important;font-size:12px!important;font-weight:600!important;color:#d2dde7!important;margin-bottom:20px!important}
+.dasc-home .dasc-hero h1{font-size:68px!important;line-height:1.06!important;font-weight:750!important;max-width:720px!important;margin:0!important;color:#fff!important}
+.dasc-home .dasc-hero h1 span{color:#fff!important;display:block}.dasc-home .dasc-hero h1 small{display:block;font-size:33px;font-weight:550;color:#fff;margin-top:14px;line-height:1.2}
+.dasc-home .dasc-hero p{font-size:17px!important;line-height:1.7!important;max-width:540px!important;color:#e1e8ed!important;margin:24px 0!important}
+.dasc-home .dasc-hero-actions{margin-top:28px!important;gap:12px!important;display:flex!important;flex-wrap:wrap!important}.dasc-home .dasc-hero .dasc-btn-light{background:#fff!important;color:#003399!important}.dasc-home .dasc-hero .dasc-btn-outline{background:transparent!important;color:#fff!important;border:1px solid #ffffff80!important}
+.dasc-home .dasc-hero-stats{display:flex!important;gap:32px!important;border-top:1px solid #ffffff45;margin-top:54px!important;padding-top:20px!important}.dasc-home .dasc-stat{background:none!important;border:0!important;padding:0!important;box-shadow:none!important;flex:1}.dasc-home .dasc-stat strong{font-size:20px!important;line-height:1.3!important}.dasc-home .dasc-stat span{font-size:11px!important;font-weight:500!important;color:#d2dde7!important;line-height:1.5!important}
+.dasc-home .dasc-tabs-grid{display:block!important}.dasc-home .dasc-program-group{border-radius:0!important;border:0!important;border-top:1px solid #cbd5df!important;box-shadow:none!important;padding:26px 0!important;display:grid;grid-template-columns:180px 1fr;gap:0 32px;background:#fff!important}.dasc-home .dasc-program-group h3{font-size:23px!important;margin:0!important}.dasc-home .dasc-program-group>p{grid-column:1;font-size:13px!important}.dasc-home .dasc-program-list{grid-column:2;grid-row:1/3;display:grid!important;grid-template-columns:1fr 1fr;gap:0 24px!important}.dasc-home .dasc-program-card{background:transparent!important;border:0!important;border-bottom:1px solid #e1e6eb!important;border-radius:0!important;padding:18px 0!important;font-size:15px!important;font-weight:650!important;box-shadow:none!important;transform:none!important}.dasc-home .dasc-program-card span{color:#003399}.dasc-home .dasc-program-card:hover{color:#003399!important;border-color:#003399!important}
+.dasc-home .dasc-benefits{background:#f4f6f8!important}.dasc-home .dasc-benefit{background:transparent!important;border:0!important;border-top:1px solid #cbd5df!important;padding:22px 0!important;border-radius:0!important}.dasc-home .dasc-benefit>strong{font-size:13px!important;color:#003399!important}.dasc-home .dasc-benefit h3{font-size:19px!important}.dasc-home .dasc-benefit p{font-size:14px!important}
+.dasc-home .dasc-feature{background:transparent!important;border:0!important;border-top:1px solid #dbe2e8!important;padding:22px 0!important}.dasc-home .dasc-big-card{background:#003399!important;border-radius:0!important;box-shadow:none!important}
+.dasc-home .dasc-proof{background:#eaf1f7!important;color:#172033!important}.dasc-home .dasc-proof h2,.dasc-home .dasc-proof h3{color:#172033!important}.dasc-home .dasc-proof p{color:#465568!important}.dasc-home .dasc-proof .dasc-btn-light{background:#003399!important;color:#fff!important}.dasc-home .dasc-final-cta{border-radius:0!important;box-shadow:none!important}
+.design-index{display:flex;gap:28px;padding:18px 0;border-bottom:1px solid #dbe2e8;flex-wrap:wrap}.design-index a{font-size:13px;color:#003399;font-weight:650}.design-index a:hover{text-decoration:underline}
+@media(hover:hover){body main :is(.site-card,.dasc-program-card,.dasc-hyflex-card):hover{transform:translateY(-2px)!important;box-shadow:none!important}}
+@media(max-width:1060px){.site-nav{height:70px}.site-menu{top:78px;border-radius:6px}.dasc-home .dasc-hero{min-height:570px}.dasc-home .dasc-hero h1{font-size:56px!important}.site-footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.site-brand-sub{display:block;font-size:9px;max-width:125px}.site-brand-mark{font-size:30px}.site-nav{height:68px}.dasc-home .dasc-hero{padding:38px 0 22px!important;min-height:0;background-position:61% center!important}.dasc-home .dasc-hero:before{background:rgba(7,16,22,.78)!important}.dasc-home .dasc-hero-badge{font-size:10px!important;margin-bottom:18px!important}.dasc-home .dasc-hero h1{font-size:49px!important}.dasc-home .dasc-hero h1 small{font-size:27px;margin-top:12px}.dasc-home .dasc-hero p{font-size:14px!important;line-height:1.7!important;margin:20px 0!important}.dasc-home .dasc-hero-actions{margin-top:22px!important}.dasc-home .dasc-hero .dasc-btn{width:100%;font-size:13px!important}.dasc-home .dasc-hero-stats{gap:12px!important;margin-top:30px!important;padding-top:18px!important}.dasc-home .dasc-stat strong{font-size:15px!important}.dasc-home .dasc-stat span{font-size:10px!important}.dasc-home .dasc-program-group{grid-template-columns:1fr!important;padding:22px 0!important}.dasc-home .dasc-program-list{grid-column:1;grid-row:auto;grid-template-columns:1fr}.dasc-home .dasc-program-group>p{margin:10px 0!important}.dasc-home .dasc-section{padding:46px 0!important}body main :is(.dasc-section-head,.dasc-section-title,.dasc-hyflex-section-head) h2{font-size:27px!important}.site-page-hero h1{font-size:34px}.site-page-pad{padding:42px 0}.site-footer-grid{grid-template-columns:1fr}.site-route-lab__intro{padding:0!important}.site-route-lab__intro h2,.site-hyflex-planner h2{font-size:27px!important}.design-index{gap:12px 22px}.site-wa{border-radius:4px;box-shadow:none}.site-comparison table{table-layout:fixed}}
+.dasc-home .dasc-hero .design-hero-scrim{position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,#071016ed 0%,#071016ce 43%,#07101618 100%);pointer-events:none;max-width:none}
+.dasc-home .dasc-hero .dasc-stat{background:transparent!important;border-radius:0!important;backdrop-filter:none!important}.dasc-home .dasc-hero .dasc-stat:before,.dasc-home .dasc-hero .dasc-stat:after{display:none!important}
+@media(max-width:640px){.dasc-home .dasc-hero .design-hero-scrim{background:#071016c7}}
+@media(max-width:640px){body main h1,body main .dasc-hero__content h1,body .dasc-oferta-page .dasc-hero h1{font-size:36px!important;line-height:1.15!important}body main h2{font-size:27px!important}body main .dasc-hero__grid{gap:30px!important}body main .dasc-hero__lead{font-size:15px!important}}
+.dasc-home .dasc-program-list .dasc-program-card{border-left:4px solid var(--career-color,#003399)!important;padding:18px 12px!important;align-items:center;gap:16px}
+.dasc-home .dasc-program-card .program-copy{display:grid;gap:7px;min-width:0;flex:1}
+.dasc-home .dasc-program-card .program-copy b{font-size:15px;font-weight:650;line-height:1.5;color:#172033}
+.dasc-home .dasc-program-card .program-rvoe{font-size:11px;line-height:1.6;color:#526172;font-weight:500;overflow-wrap:anywhere;white-space:normal}
+.dasc-home .dasc-program-card>span{color:var(--career-color,#003399)!important;background:transparent!important;flex:none}
+.dasc-home .dasc-program-list .dasc-program-card:hover{background:color-mix(in srgb,var(--career-color,#003399) 7%,white)!important;border-bottom-color:var(--career-color,#003399)!important}
+body .site-wa{background:#087c3e!important;color:#fff!important}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

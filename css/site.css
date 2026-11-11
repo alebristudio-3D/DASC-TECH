@@ -116,5 +116,15 @@ body.is-enhanced .site-route-result.is-changing,body.is-enhanced .site-offer-adv
 @media(max-width:640px){.site-route-lab.site-mission-strip{padding:34px 0}.site-route-lab__intro,.site-route-lab__console,.site-offer-advisor,.site-hyflex-planner{border-radius:18px;padding:18px}.site-route-progress{grid-template-columns:repeat(2,1fr)}.site-route-selector button,.site-offer-advisor__choices button,.site-hyflex-planner__choices button{flex:1 1 100%}.site-hyflex-week{grid-template-columns:1fr}.site-hyflex-week div{min-height:88px}.site-route-result,.site-offer-advisor__result,.site-hyflex-planner__result{border-radius:14px}}
 @media(prefers-reduced-motion:reduce){.site-hyflex-week div:after,body.is-enhanced .site-route-result.is-changing,body.is-enhanced .site-offer-advisor__result.is-changing,body.is-enhanced .site-hyflex-planner__board.is-changing{animation:none}}
 
+/* Decision tools and contact controls */
+.site-comparison{overflow-x:auto;margin:24px 0;border:1px solid #cbd5e1;border-radius:8px}
+.site-comparison table{width:100%;border-collapse:collapse;background:#fff;color:#172033}
+.site-comparison th,.site-comparison td{padding:16px;text-align:left;vertical-align:top;border-bottom:1px solid #cbd5e1;overflow-wrap:anywhere}
+.site-comparison thead{background:#003399;color:white}
+.site-comparison caption{padding:12px;text-align:left;font-weight:700}
+.site-form-disclosure{grid-column:1/-1;font-size:14px;line-height:1.6;color:#344054;background:#f1f5f9;padding:14px;border-radius:6px}
+.site-form-disclosure a{color:#003399;text-decoration:underline}
+:where(a,button,input,select,textarea,summary):focus-visible{outline:3px solid #e0a900;outline-offset:4px}
+@media(max-width:640px){.site-wa{position:static!important;display:flex!important;width:max-content;max-width:100%;margin:16px auto;transform:none!important}.dasc-home .dasc-hero{padding-top:32px!important}.dasc-home .dasc-hero h1{font-size:34px!important;line-height:1.12!important}.site-comparison th,.site-comparison td{padding:10px;font-size:13px}.site-comparison th:first-child{width:23%}.site-form-disclosure{overflow-wrap:anywhere}}
 /* Mobile overflow hardening for long program names and badges */
 @media(max-width:720px){.dasc-hero__content,.dasc-hero__lead,.dasc-hero__badges{max-width:100%;min-width:0}.dasc-hero__content h1{max-width:100%;font-size:clamp(36px,10vw,52px)!important;overflow-wrap:anywhere}.dasc-hero__badges span{max-width:100%;white-space:normal;overflow-wrap:anywhere}.dasc-session-card{width:100%!important;max-width:100%!important}.dasc-session-card h2,.dasc-session-card p,.dasc-session__chips,.dasc-session__box{max-width:100%;min-width:0;overflow-wrap:anywhere}}
