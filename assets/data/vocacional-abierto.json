@@ -1,0 +1,854 @@
+{
+  "version": "2026-11-11",
+  "blocks": [
+    {
+      "title": "Actividades que te interesan",
+      "items": [
+        {
+          "id": "interest_R_0",
+          "kind": "interest",
+          "key": "R",
+          "label": "Resolver un problema práctico usando herramientas."
+        },
+        {
+          "id": "interest_R_1",
+          "kind": "interest",
+          "key": "R",
+          "label": "Construir, reparar o probar un objeto."
+        },
+        {
+          "id": "interest_R_2",
+          "kind": "interest",
+          "key": "R",
+          "label": "Trabajar con equipos, materiales o espacios físicos."
+        },
+        {
+          "id": "interest_I_0",
+          "kind": "interest",
+          "key": "I",
+          "label": "Investigar por qué sucede algo."
+        },
+        {
+          "id": "interest_I_1",
+          "kind": "interest",
+          "key": "I",
+          "label": "Comparar hipótesis mediante datos o experimentos."
+        },
+        {
+          "id": "interest_I_2",
+          "kind": "interest",
+          "key": "I",
+          "label": "Analizar un problema complejo antes de proponer una solución."
+        }
+      ]
+    },
+    {
+      "title": "Cómo disfrutas resolver retos",
+      "items": [
+        {
+          "id": "interest_A_0",
+          "kind": "interest",
+          "key": "A",
+          "label": "Crear una propuesta visual, musical o narrativa propia."
+        },
+        {
+          "id": "interest_A_1",
+          "kind": "interest",
+          "key": "A",
+          "label": "Explorar varias soluciones originales para una idea."
+        },
+        {
+          "id": "interest_A_2",
+          "kind": "interest",
+          "key": "A",
+          "label": "Expresar una idea con imágenes, palabras o formas."
+        },
+        {
+          "id": "interest_S_0",
+          "kind": "interest",
+          "key": "S",
+          "label": "Escuchar a alguien y ayudarle a comprender una situación."
+        },
+        {
+          "id": "interest_S_1",
+          "kind": "interest",
+          "key": "S",
+          "label": "Explicar un tema y acompañar el aprendizaje de otra persona."
+        },
+        {
+          "id": "interest_S_2",
+          "kind": "interest",
+          "key": "S",
+          "label": "Colaborar en una actividad que beneficie a una comunidad."
+        }
+      ]
+    },
+    {
+      "title": "Tu relación con personas y organización",
+      "items": [
+        {
+          "id": "interest_E_0",
+          "kind": "interest",
+          "key": "E",
+          "label": "Presentar una propuesta para convencer a un equipo."
+        },
+        {
+          "id": "interest_E_1",
+          "kind": "interest",
+          "key": "E",
+          "label": "Coordinar personas para lograr un objetivo."
+        },
+        {
+          "id": "interest_E_2",
+          "kind": "interest",
+          "key": "E",
+          "label": "Detectar una oportunidad y convertirla en un proyecto."
+        },
+        {
+          "id": "interest_C_0",
+          "kind": "interest",
+          "key": "C",
+          "label": "Organizar información con criterios claros."
+        },
+        {
+          "id": "interest_C_1",
+          "kind": "interest",
+          "key": "C",
+          "label": "Revisar detalles y detectar errores en registros."
+        },
+        {
+          "id": "interest_C_2",
+          "kind": "interest",
+          "key": "C",
+          "label": "Seguir un procedimiento y comprobar que esté completo."
+        }
+      ]
+    },
+    {
+      "title": "Áreas que despiertan tu curiosidad",
+      "items": [
+        {
+          "id": "domain_computing",
+          "kind": "domain",
+          "key": "computing",
+          "label": "Me interesa entender cómo funcionan los programas, redes y sistemas digitales."
+        },
+        {
+          "id": "domain_health",
+          "kind": "domain",
+          "key": "health",
+          "label": "Me interesa estudiar el cuerpo humano y participar en el cuidado de la salud."
+        },
+        {
+          "id": "domain_design",
+          "kind": "domain",
+          "key": "design",
+          "label": "Me interesa crear interfaces, imágenes y experiencias visuales."
+        },
+        {
+          "id": "domain_business",
+          "kind": "domain",
+          "key": "business",
+          "label": "Me interesa organizar recursos y hacer crecer un negocio."
+        },
+        {
+          "id": "domain_law",
+          "kind": "domain",
+          "key": "law",
+          "label": "Me interesa analizar normas, conflictos y argumentos legales."
+        }
+      ]
+    },
+    {
+      "title": "Problemas que te gustaría explorar",
+      "items": [
+        {
+          "id": "domain_education",
+          "kind": "domain",
+          "key": "education",
+          "label": "Me interesa ayudar a otras personas a aprender."
+        },
+        {
+          "id": "domain_science",
+          "kind": "domain",
+          "key": "science",
+          "label": "Me interesa experimentar y explicar fenómenos con evidencia."
+        },
+        {
+          "id": "domain_engineering",
+          "kind": "domain",
+          "key": "engineering",
+          "label": "Me interesa diseñar o mejorar máquinas, mecanismos y procesos."
+        },
+        {
+          "id": "domain_social",
+          "kind": "domain",
+          "key": "social",
+          "label": "Me interesa comprender el comportamiento y las necesidades de las personas."
+        },
+        {
+          "id": "domain_services",
+          "kind": "domain",
+          "key": "services",
+          "label": "Me interesa crear experiencias de atención, alimentación o viajes."
+        }
+      ]
+    },
+    {
+      "title": "Otros campos que puedes descubrir",
+      "items": [
+        {
+          "id": "domain_finance",
+          "kind": "domain",
+          "key": "finance",
+          "label": "Me interesa analizar presupuestos, cuentas y decisiones económicas."
+        },
+        {
+          "id": "domain_architecture",
+          "kind": "domain",
+          "key": "architecture",
+          "label": "Me interesa diseñar espacios, edificios y entornos habitables."
+        },
+        {
+          "id": "domain_environment",
+          "kind": "domain",
+          "key": "environment",
+          "label": "Me interesa conservar ecosistemas y resolver problemas ambientales."
+        },
+        {
+          "id": "domain_arts",
+          "kind": "domain",
+          "key": "arts",
+          "label": "Me interesa expresarme mediante música, escritura o creación artística."
+        },
+        {
+          "id": "domain_communication",
+          "kind": "domain",
+          "key": "communication",
+          "label": "Me interesa investigar historias, comunicar ideas y crear contenidos."
+        }
+      ]
+    },
+    {
+      "title": "Habilidades que reconoces en ti",
+      "items": [
+        {
+          "id": "skill_analytical",
+          "kind": "skill",
+          "key": "analytical",
+          "label": "Puedo descomponer un problema y explicar mi razonamiento."
+        },
+        {
+          "id": "skill_technical",
+          "kind": "skill",
+          "key": "technical",
+          "label": "Puedo aprender a manejar herramientas o equipos mediante práctica."
+        },
+        {
+          "id": "skill_creative",
+          "kind": "skill",
+          "key": "creative",
+          "label": "Puedo proponer ideas y desarrollar una expresión propia."
+        },
+        {
+          "id": "skill_people",
+          "kind": "skill",
+          "key": "people",
+          "label": "Puedo escuchar y explicar ideas con respeto."
+        },
+        {
+          "id": "skill_leadership",
+          "kind": "skill",
+          "key": "leadership",
+          "label": "Puedo coordinar tareas y comunicar prioridades."
+        },
+        {
+          "id": "skill_organization",
+          "kind": "skill",
+          "key": "organization",
+          "label": "Puedo ordenar información y revisar detalles."
+        }
+      ]
+    },
+    {
+      "title": "Motivación y futuro realista",
+      "items": [
+        {
+          "id": "motivation",
+          "kind": "choice",
+          "label": "¿Qué te gustaría aportar con tu trabajo?",
+          "options": [
+            [
+              "impact",
+              "Mejorar la vida de otras personas"
+            ],
+            [
+              "creation",
+              "Crear soluciones o expresiones propias"
+            ],
+            [
+              "stability",
+              "Construir estabilidad profesional"
+            ],
+            [
+              "lead",
+              "Dirigir y desarrollar proyectos"
+            ]
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "choice",
+          "label": "¿Qué apoyo te sirve al aprender algo nuevo?",
+          "options": [
+            [
+              "practice",
+              "Practicar con un caso"
+            ],
+            [
+              "examples",
+              "Ver ejemplos y explicaciones"
+            ],
+            [
+              "conversation",
+              "Discutir y recibir retroalimentación"
+            ],
+            [
+              "structure",
+              "Organizar pasos y contrastar evidencia"
+            ]
+          ]
+        },
+        {
+          "id": "constraint",
+          "kind": "choice",
+          "label": "¿Qué necesitas revisar antes de elegir?",
+          "options": [
+            [
+              "schedule",
+              "Compatibilidad con mi tiempo o trabajo"
+            ],
+            [
+              "cost",
+              "Costo total y apoyos"
+            ],
+            [
+              "location",
+              "Ubicación, prácticas y modalidad"
+            ],
+            [
+              "explore",
+              "Conocer mejor la actividad profesional"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "domains": {
+    "computing": "Computación",
+    "health": "Salud",
+    "design": "Diseño",
+    "business": "Negocios",
+    "law": "Derecho",
+    "education": "Educación",
+    "science": "Ciencia",
+    "engineering": "Ingeniería",
+    "social": "Sociedad",
+    "services": "Servicios",
+    "finance": "Finanzas",
+    "architecture": "Arquitectura",
+    "environment": "Medio ambiente",
+    "arts": "Artes",
+    "communication": "Comunicación"
+  },
+  "careers": [
+    {
+      "id": "software",
+      "name": "Ingeniería de Software",
+      "interests": [
+        "I",
+        "C",
+        "R"
+      ],
+      "domains": [
+        "computing"
+      ],
+      "skill": "analytical",
+      "dasc": {
+        "slug": "ingenieria-en-software",
+        "color": "#c12f28"
+      },
+      "next": "Compara requisitos, programación, pruebas y mantenimiento de una aplicación."
+    },
+    {
+      "id": "systems",
+      "name": "Sistemas Computacionales",
+      "interests": [
+        "I",
+        "R",
+        "C"
+      ],
+      "domains": [
+        "computing"
+      ],
+      "skill": "technical",
+      "dasc": {
+        "slug": "sistemas-computacionales",
+        "color": "#0099d6"
+      },
+      "next": "Investiga redes, sistemas operativos, programación e infraestructura."
+    },
+    {
+      "id": "medicine",
+      "name": "Medicina",
+      "interests": [
+        "I",
+        "S",
+        "R"
+      ],
+      "domains": [
+        "health"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Investiga formación clínica, prácticas, duración y responsabilidades del cuidado médico."
+    },
+    {
+      "id": "nursing",
+      "name": "Enfermería",
+      "interests": [
+        "S",
+        "R",
+        "C"
+      ],
+      "domains": [
+        "health"
+      ],
+      "skill": "people",
+      "dasc": null,
+      "next": "Conoce el trabajo de cuidado, las prácticas clínicas y sus exigencias."
+    },
+    {
+      "id": "nutrition",
+      "name": "Nutrición",
+      "interests": [
+        "I",
+        "S",
+        "C"
+      ],
+      "domains": [
+        "health"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Revisa las bases biológicas, evaluación alimentaria y campos de intervención."
+    },
+    {
+      "id": "dentistry",
+      "name": "Odontología",
+      "interests": [
+        "R",
+        "I",
+        "S"
+      ],
+      "domains": [
+        "health"
+      ],
+      "skill": "technical",
+      "dasc": null,
+      "next": "Explora ciencias de la salud, destreza manual y prácticas clínicas."
+    },
+    {
+      "id": "psychology",
+      "name": "Psicología",
+      "interests": [
+        "S",
+        "I",
+        "A"
+      ],
+      "domains": [
+        "social"
+      ],
+      "skill": "people",
+      "dasc": null,
+      "next": "Compara campos de psicología, métodos de investigación y formación profesional."
+    },
+    {
+      "id": "law",
+      "name": "Derecho",
+      "interests": [
+        "E",
+        "I",
+        "C"
+      ],
+      "domains": [
+        "law"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Lee un caso introductorio y conoce las distintas áreas de práctica jurídica."
+    },
+    {
+      "id": "education",
+      "name": "Pedagogía y Educación",
+      "interests": [
+        "S",
+        "A",
+        "C"
+      ],
+      "domains": [
+        "education"
+      ],
+      "skill": "people",
+      "dasc": null,
+      "next": "Explora diseño de aprendizaje, observación educativa y acompañamiento."
+    },
+    {
+      "id": "socialwork",
+      "name": "Trabajo Social",
+      "interests": [
+        "S",
+        "E",
+        "I"
+      ],
+      "domains": [
+        "social"
+      ],
+      "skill": "people",
+      "dasc": null,
+      "next": "Conoce intervención comunitaria, análisis social y trabajo de campo."
+    },
+    {
+      "id": "marketing",
+      "name": "Mercadotecnia Digital",
+      "interests": [
+        "E",
+        "A",
+        "I"
+      ],
+      "domains": [
+        "communication",
+        "business"
+      ],
+      "skill": "creative",
+      "dasc": {
+        "slug": "mercadotecnia-digital",
+        "color": "#49b69f"
+      },
+      "next": "Compara estrategia de marca, investigación y análisis de campañas."
+    },
+    {
+      "id": "design",
+      "name": "Diseño Interactivo",
+      "interests": [
+        "A",
+        "I",
+        "R"
+      ],
+      "domains": [
+        "design"
+      ],
+      "skill": "creative",
+      "dasc": {
+        "slug": "diseno-interactivo",
+        "color": "#bf1bcc"
+      },
+      "next": "Prueba un boceto de interfaz y compara diseño, animación e interacción."
+    },
+    {
+      "id": "graphic",
+      "name": "Diseño Gráfico",
+      "interests": [
+        "A",
+        "R",
+        "E"
+      ],
+      "domains": [
+        "design",
+        "arts"
+      ],
+      "skill": "creative",
+      "dasc": null,
+      "next": "Explora comunicación visual, tipografía, composición y producción gráfica."
+    },
+    {
+      "id": "communication",
+      "name": "Comunicación y Periodismo",
+      "interests": [
+        "A",
+        "E",
+        "S"
+      ],
+      "domains": [
+        "communication"
+      ],
+      "skill": "people",
+      "dasc": null,
+      "next": "Investiga producción de contenidos, investigación periodística y ética."
+    },
+    {
+      "id": "admin",
+      "name": "Administración y Sistemas",
+      "interests": [
+        "E",
+        "C",
+        "I"
+      ],
+      "domains": [
+        "business"
+      ],
+      "skill": "organization",
+      "dasc": {
+        "slug": "administracion-y-sistemas",
+        "color": "#d0ab15"
+      },
+      "next": "Analiza la organización de un negocio y el uso de herramientas de sistemas."
+    },
+    {
+      "id": "accounting",
+      "name": "Contaduría",
+      "interests": [
+        "C",
+        "I",
+        "E"
+      ],
+      "domains": [
+        "finance"
+      ],
+      "skill": "organization",
+      "dasc": null,
+      "next": "Revisa registros, normas contables y análisis de información financiera."
+    },
+    {
+      "id": "economics",
+      "name": "Economía y Finanzas",
+      "interests": [
+        "I",
+        "C",
+        "E"
+      ],
+      "domains": [
+        "finance"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Explora matemáticas, modelos económicos y decisiones con información."
+    },
+    {
+      "id": "industrial",
+      "name": "Ingeniería Industrial",
+      "interests": [
+        "R",
+        "C",
+        "I"
+      ],
+      "domains": [
+        "engineering",
+        "business"
+      ],
+      "skill": "organization",
+      "dasc": {
+        "slug": "ingenieria-industrial",
+        "color": "#969596"
+      },
+      "next": "Observa un proceso y propone mejoras de calidad, tiempos o recursos."
+    },
+    {
+      "id": "mechanical",
+      "name": "Ingeniería Mecánica",
+      "interests": [
+        "R",
+        "I",
+        "C"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "skill": "technical",
+      "dasc": null,
+      "next": "Investiga diseño de mecanismos, materiales, física y fabricación."
+    },
+    {
+      "id": "mechatronics",
+      "name": "Mecatrónica",
+      "interests": [
+        "R",
+        "I",
+        "C"
+      ],
+      "domains": [
+        "engineering",
+        "computing"
+      ],
+      "skill": "technical",
+      "dasc": null,
+      "next": "Explora integración de mecánica, electrónica y programación."
+    },
+    {
+      "id": "electronics",
+      "name": "Ingeniería Electrónica",
+      "interests": [
+        "I",
+        "R",
+        "C"
+      ],
+      "domains": [
+        "engineering",
+        "computing"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Conoce circuitos, señales, instrumentación y sistemas electrónicos."
+    },
+    {
+      "id": "civil",
+      "name": "Ingeniería Civil",
+      "interests": [
+        "R",
+        "I",
+        "C"
+      ],
+      "domains": [
+        "architecture",
+        "engineering"
+      ],
+      "skill": "technical",
+      "dasc": null,
+      "next": "Investiga estructuras, materiales, obras y responsabilidades técnicas."
+    },
+    {
+      "id": "architecture",
+      "name": "Arquitectura",
+      "interests": [
+        "A",
+        "R",
+        "I"
+      ],
+      "domains": [
+        "architecture"
+      ],
+      "skill": "creative",
+      "dasc": null,
+      "next": "Explora espacios, representación, construcción y necesidades de las personas."
+    },
+    {
+      "id": "biology",
+      "name": "Biología",
+      "interests": [
+        "I",
+        "R",
+        "S"
+      ],
+      "domains": [
+        "environment",
+        "science"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Conoce investigación de organismos, trabajo de campo y laboratorios."
+    },
+    {
+      "id": "biotechnology",
+      "name": "Biotecnología",
+      "interests": [
+        "I",
+        "R",
+        "C"
+      ],
+      "domains": [
+        "science",
+        "health"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Revisa bases de biología, química y procesos experimentales."
+    },
+    {
+      "id": "chemistry",
+      "name": "Química",
+      "interests": [
+        "I",
+        "R",
+        "C"
+      ],
+      "domains": [
+        "science"
+      ],
+      "skill": "analytical",
+      "dasc": null,
+      "next": "Explora experimentación, análisis de sustancias y seguridad de laboratorio."
+    },
+    {
+      "id": "environment",
+      "name": "Ingeniería Ambiental",
+      "interests": [
+        "I",
+        "R",
+        "S"
+      ],
+      "domains": [
+        "environment",
+        "engineering"
+      ],
+      "skill": "technical",
+      "dasc": null,
+      "next": "Investiga sistemas ambientales y evaluación de soluciones técnicas."
+    },
+    {
+      "id": "gastronomy",
+      "name": "Gastronomía",
+      "interests": [
+        "R",
+        "A",
+        "E"
+      ],
+      "domains": [
+        "services"
+      ],
+      "skill": "creative",
+      "dasc": null,
+      "next": "Conoce técnicas culinarias, higiene, operación y gestión de alimentos."
+    },
+    {
+      "id": "tourism",
+      "name": "Turismo y Hospitalidad",
+      "interests": [
+        "E",
+        "S",
+        "C"
+      ],
+      "domains": [
+        "services"
+      ],
+      "skill": "people",
+      "dasc": null,
+      "next": "Explora atención a visitantes, idiomas, operación y administración de servicios."
+    },
+    {
+      "id": "arts",
+      "name": "Artes y Producción Creativa",
+      "interests": [
+        "A",
+        "R",
+        "S"
+      ],
+      "domains": [
+        "arts"
+      ],
+      "skill": "creative",
+      "dasc": null,
+      "next": "Explora talleres, portafolios y distintas disciplinas artísticas."
+    }
+  ],
+  "sources": [
+    {
+      "title": "O*NET: marco de intereses profesionales",
+      "url": "https://www.onetcenter.org/reports/IP_Manual.html"
+    },
+    {
+      "title": "Observatorio Laboral: áreas y perfiles de ingreso",
+      "url": "https://www.observatoriolaboral.gob.mx/static/que-quieres-ser/Perfil_area1.html"
+    }
+  ]
+}

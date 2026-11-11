@@ -121,72 +121,6 @@
     window.setTimeout(() => element.classList.remove('is-changing'), 360);
   }
 
-  function setupRouteLab(){
-    const root = document.querySelector('[data-route-lab]');
-    if(!root) return;
-
-    const routes = {
-      tech: {
-        label: 'Perfil: crear tecnología',
-        title: 'Sistemas Computacionales e Ingeniería en Software',
-        copy: 'Si te interesa programar, automatizar y crear soluciones digitales, compara Sistemas y Software: revisa sus materias, duración y distintos recorridos de formación.',
-        tags: ['Programación', 'Datos', 'Proyectos TI'],
-        href: 'comparar-sistemas-software.html',
-        activeSteps: 3
-      },
-      business: {
-        label: 'Perfil: dirigir negocios',
-        title: 'Administración y Sistemas, Mercadotecnia Digital o Maestrías',
-        copy: 'Para quien quiere liderar, vender, analizar información y tomar decisiones, esta ruta mezcla gestión, estrategia digital y herramientas tecnológicas.',
-        tags: ['Negocios', 'Analítica', 'Liderazgo'],
-        href: 'oferta-educativa.html#programas-dasc',
-        activeSteps: 3
-      },
-      creative: {
-        label: 'Perfil: diseñar experiencias',
-        title: 'Diseño Interactivo y Mercadotecnia Digital',
-        copy: 'Si te atrae crear interfaces, contenidos, marcas y experiencias digitales, esta ruta combina creatividad, tecnología y comunicación visual.',
-        tags: ['UX/UI', 'Contenido', 'Experiencia digital'],
-        href: 'diseno-interactivo.html',
-        activeSteps: 2
-      },
-      operations: {
-        label: 'Perfil: optimizar procesos',
-        title: 'Ingeniería Industrial y Maestría en Calidad y Productividad',
-        copy: 'Para resolver problemas de productividad, mejora continua y operación, esta ruta se enfoca en procesos, sistemas y resultados medibles.',
-        tags: ['Procesos', 'Calidad', 'Productividad'],
-        href: 'ingenieria-industrial.html',
-        activeSteps: 2
-      }
-    };
-
-    const buttons = Array.from(root.querySelectorAll('[data-route-profile]'));
-    const label = root.querySelector('[data-route-label]');
-    const title = root.querySelector('[data-route-title]');
-    const copy = root.querySelector('[data-route-copy]');
-    const tags = root.querySelector('[data-route-tags]');
-    const link = root.querySelector('[data-route-link]');
-    const result = root.querySelector('.site-route-result');
-    const progress = Array.from(root.querySelectorAll('.site-route-progress span'));
-
-    function render(key){
-      const route = routes[key] || routes.tech;
-      buttons.forEach((button) => button.classList.toggle('is-active', button.dataset.routeProfile === key));
-      progress.forEach((step, index) => step.classList.toggle('is-active', index < route.activeSteps));
-      if(label) label.textContent = route.label;
-      if(title) title.textContent = route.title;
-      if(copy) copy.textContent = route.copy;
-      if(link) link.href = route.href;
-      setTagList(tags, route.tags);
-      softSwap(result);
-      track('route_profile_select', { program: key, page_path: location.pathname, event_category: 'journey' });
-    }
-
-    buttons.forEach((button) => {
-      button.addEventListener('click', () => render(button.dataset.routeProfile));
-    });
-  }
-
   document.addEventListener('click', (event) => {
     const a = event.target.closest('a');
     if(!a) return;
@@ -657,7 +591,6 @@
   // Keep published figures stable while the page loads.
   setupTechCanvas();
   setupOfferProfiles();
-  setupRouteLab();
   setupOfferAdvisor();
   setupHyflexPlanner();
   setupHyflexVisual();
