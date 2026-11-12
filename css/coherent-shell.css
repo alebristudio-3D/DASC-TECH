@@ -1,0 +1,29 @@
+/* Composición compartida entre inicio, institución, servicios y oferta. */
+body.dasc-shell{--shell-dark:#071a36;--shell-soft:#f4f7fb;--shell-line:#dbe4f0;--shell-width:1180px;background:#fff!important}
+body.dasc-shell main{background:#fff!important;color:#102440!important}
+body.dasc-shell main>section:not(.unified-hero):not(.tech-lab){margin-top:0}
+body.dasc-shell .unified-hero{background-color:#071a36!important;background-image:linear-gradient(#6ce5ff08 1px,transparent 1px),linear-gradient(90deg,#6ce5ff08 1px,transparent 1px)!important;background-size:48px 48px!important;color:#fff!important;border-radius:0!important;margin:0!important;width:100%!important;max-width:none!important;padding:64px 0!important}
+body.dasc-shell .unified-hero-grid{grid-template-columns:1.3fr 1fr;gap:64px;min-height:300px}
+body.dasc-shell .unified-hero h1{font-size:clamp(36px,4vw,58px)!important;max-width:720px;color:#fff!important;line-height:1.12!important}
+body.dasc-shell .unified-hero p{color:#bdd0e6!important;font-size:16px!important;font-weight:400!important;line-height:1.8!important}
+.shell-route-panel{border:1px solid #42648d;background:#10294b;border-radius:10px;overflow:hidden;padding:0 28px 28px;min-width:0}.shell-panel-bar{margin:0 -28px 28px;padding:15px 20px;border-bottom:1px solid #ffffff25;display:flex;justify-content:space-between;gap:10px;color:#9ab9dc;font:10px/1.6 'IBM Plex Mono',monospace}.shell-route-panel h2{font-size:26px!important;color:#fff!important;line-height:1.3!important;margin:20px 0 24px!important}.shell-steps{display:grid;gap:10px;grid-template-columns:repeat(3,1fr);margin:24px 0}.shell-steps span{padding:17px 7px;border:1px solid #6ce5ff40;background:#0a3151;border-radius:5px;text-align:center;color:#c5f4ff;font:9px/1.6 'IBM Plex Mono',monospace}.shell-route-panel a{color:#6ce5ff;font-size:13px}.shell-route-panel p{font-size:13px!important}
+/* Les anciens thèmes de pages ne doivent plus changer le fond de l'institution. */
+body.dasc-shell main :is(.dasc-nosotros-page,.dasc-hyflex,.dasc-contact,.dasc-ec,.dasc-oferta-page,.dasc-reg-page,.career-page,.dasc-home){background:#fff!important;color:#102440!important}
+body.dasc-shell main :is(.dasc-section,.dasc-di-section,.dasc-exec-section,.dasc-ec-section,.dasc-contact-section){background:#fff!important;color:#102440!important;padding-block:64px!important;border-bottom:1px solid #edf1f7}
+body.dasc-shell main :is(.dasc-section,.dasc-di-section,.dasc-exec-section,.dasc-ec-section,.dasc-contact-section):nth-of-type(even){background:#f4f7fb!important}
+body.dasc-shell main :is(.dasc-section,.dasc-di-section,.dasc-exec-section,.dasc-ec-section) :is(h2,h3){color:#102440!important}
+body.dasc-shell main :is(.dasc-section,.dasc-di-section,.dasc-exec-section,.dasc-ec-section) p{color:#52657f!important}
+body.dasc-shell main :is(.dasc-trust,.dasc-ec-trust){background:#f4f7fb!important;border-block:1px solid #dbe4f0!important;box-shadow:none!important;border-radius:0!important}
+body.dasc-shell main :is(.dasc-cta,.dasc-ec-cta,.dasc-final-cta){background:#071a36!important;color:#fff!important;box-shadow:none!important;border-radius:10px!important;padding:40px!important}
+body.dasc-shell main :is(.dasc-cta,.dasc-ec-cta,.dasc-final-cta) :is(h2,h3,p){color:#fff!important}
+body.dasc-shell main :is(.dasc-value-card,.dasc-info-card,.dasc-benefit,.dasc-format-card,.dasc-contact-card,.dasc-tech-card,.dasc-stat,.dasc-ec-step){border-radius:10px!important;border:1px solid #dbe4f0!important;box-shadow:none!important;background:#fff!important;color:#102440!important}
+body.dasc-shell main :is(.dasc-icon,.dasc-ec-course-icon,.dasc-value-icon,.dasc-benefit-icon){background:#eaf1ff!important;color:#003399!important;border-radius:8px!important;box-shadow:none!important}
+body.dasc-shell .admission-tools{padding-top:48px!important;padding-bottom:48px!important}
+body.dasc-shell .site-header{position:sticky!important;top:0!important;transform:none!important;background:#fffffff5!important;border-bottom:1px solid #dbe4f0!important}
+body.dasc-shell .site-header .site-nav{width:min(1180px,calc(100% - 32px));height:78px;margin:auto}
+body.dasc-shell .site-footer{background:#06152e!important;color:#fff!important;margin-top:0!important}
+body.dasc-shell :is(.site-tech-canvas,.site-program-meter,.site-hyflex-orbit){display:none!important}
+@media(max-width:800px){body.dasc-shell .unified-hero{padding:38px 0!important}body.dasc-shell .unified-hero-grid{grid-template-columns:1fr;gap:28px;min-height:0}body.dasc-shell .unified-hero h1{font-size:36px!important}.shell-route-panel{padding:0 20px 22px}.shell-panel-bar{margin-inline:-20px}.shell-route-panel h2{font-size:24px!important}body.dasc-shell main :is(.dasc-section,.dasc-di-section,.dasc-exec-section,.dasc-ec-section,.dasc-contact-section){padding-block:44px!important}body.dasc-shell main :is(.dasc-cta,.dasc-ec-cta,.dasc-final-cta){padding:26px!important}body.dasc-shell .site-header .site-nav{height:70px}}
+@media print{body.dasc-shell .unified-hero{background:#fff!important;color:#000!important}.shell-route-panel{display:none}body.dasc-shell .unified-hero h1,body.dasc-shell .unified-hero p{color:#000!important}}
+
+body.dasc-shell main :is(.dasc-wrap,.dasc-ec-wrap){width:min(1180px,calc(100% - 32px))!important;margin-inline:auto!important}body.dasc-shell main :is(.dasc-trust,.dasc-ec-trust){margin-top:0!important;transform:none!important;padding:24px 0!important}body.dasc-shell main :is(.dasc-trust-item,.dasc-card,.dasc-video-card,.dasc-value,.dasc-visual-card){border-radius:10px!important;box-shadow:none!important;border:1px solid #dbe4f0!important;background:#fff!important}body.dasc-shell main .dasc-trust-item{padding:22px!important}
