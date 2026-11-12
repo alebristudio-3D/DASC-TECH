@@ -9,7 +9,8 @@
     "intake": "Solicitar próximo ingreso y disponibilidad.",
     "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
     "updated": "2026-11-12",
-    "source": "administracion-y-sistemas.html"
+    "source": "administracion-y-sistemas.html",
+    "level": "Licenciatura"
   },
   {
     "slug": "mercadotecnia-digital",
@@ -21,7 +22,8 @@
     "intake": "Solicitar próximo ingreso y disponibilidad.",
     "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
     "updated": "2026-11-12",
-    "source": "mercadotecnia-digital.html"
+    "source": "mercadotecnia-digital.html",
+    "level": "Licenciatura"
   },
   {
     "slug": "diseno-interactivo",
@@ -33,7 +35,8 @@
     "intake": "Solicitar próximo ingreso y disponibilidad.",
     "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
     "updated": "2026-11-12",
-    "source": "diseno-interactivo.html"
+    "source": "diseno-interactivo.html",
+    "level": "Licenciatura"
   },
   {
     "slug": "sistemas-computacionales",
@@ -45,7 +48,8 @@
     "intake": "Solicitar próximo ingreso y disponibilidad.",
     "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
     "updated": "2026-11-12",
-    "source": "sistemas-computacionales.html"
+    "source": "sistemas-computacionales.html",
+    "level": "Licenciatura"
   },
   {
     "slug": "ingenieria-en-software",
@@ -57,7 +61,8 @@
     "intake": "Solicitar próximo ingreso y disponibilidad.",
     "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
     "updated": "2026-11-12",
-    "source": "ingenieria-en-software.html"
+    "source": "ingenieria-en-software.html",
+    "level": "Ingeniería"
   },
   {
     "slug": "ingenieria-industrial",
@@ -69,6 +74,46 @@
     "intake": "Solicitar próximo ingreso y disponibilidad.",
     "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
     "updated": "2026-11-12",
-    "source": "ingenieria-industrial.html"
+    "source": "ingenieria-industrial.html",
+    "level": "Ingeniería"
+  },
+  {
+    "slug": "maestria-en-administracion",
+    "name": "Maestría en Administración",
+    "level": "Maestría",
+    "duration": "Solicita duración y organización del plan vigente.",
+    "rvoe": "SEP-SES/21/114/01/2238/2018",
+    "description": "Dirección de organizaciones, decisiones financieras y gestión de equipos.",
+    "schedule": "Confirmar horario, modalidad y actividades presenciales.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "maestria-en-administracion.html"
+  },
+  {
+    "slug": "maestria-en-calidad-y-productividad",
+    "name": "Maestría en Calidad y Productividad",
+    "level": "Maestría",
+    "duration": "Solicita duración y organización del plan vigente.",
+    "rvoe": "20242492",
+    "description": "Diagnóstico de procesos, gestión de calidad y evaluación de mejoras.",
+    "schedule": "Confirmar horario, modalidad y actividades presenciales.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "maestria-en-calidad-y-productividad.html"
+  },
+  {
+    "slug": "maestria-en-innovacion-y-gestion-de-proyectos-de-ti",
+    "name": "Maestría en Innovación y Gestión de Proyectos de TI",
+    "level": "Maestría",
+    "duration": "Solicita duración y organización del plan vigente.",
+    "rvoe": "Consultar acuerdo oficial",
+    "description": "Dirección de proyectos tecnológicos, innovación y alineación con el negocio.",
+    "schedule": "Confirmar horario, modalidad y actividades presenciales.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "maestria-en-innovacion-y-gestion-de-proyectos-de-ti.html"
   }
 ]

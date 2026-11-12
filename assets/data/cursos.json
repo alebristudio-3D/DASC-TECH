@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "computacion-basica",
+    "name": "Desarrollo de habilidades básicas de computación",
+    "area": "datos",
+    "description": "Aprende a utilizar herramientas esenciales de computación: documentos, hojas de cálculo, presentaciones y organización de información.",
+    "audience": "personas que quieren iniciar desde cero o fortalecer sus bases digitales.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "presentaciones-canva",
+    "name": "Presentaciones Profesionales con Canva",
+    "area": "creatividad",
+    "description": "Aprende a crear presentaciones visuales, claras y profesionales para entornos académicos, laborales o comerciales.",
+    "audience": "docentes, estudiantes, emprendedores y profesionistas.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "ia-contenidos",
+    "name": "Inteligencia Artificial Aplicada a Contenidos",
+    "area": "creatividad",
+    "description": "Descubre cómo usar herramientas de IA para generar textos, imágenes, videos e ideas aplicadas a proyectos reales.",
+    "audience": "creadores, docentes, equipos de marketing y emprendedores.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "mantenimiento-pc",
+    "name": "Mantenimiento de PC Preventivo y Correctivo",
+    "area": "datos",
+    "description": "Aprende a identificar componentes, realizar mantenimiento preventivo y diagnosticar fallas de hardware y periféricos.",
+    "audience": "usuarios, técnicos principiantes y personas interesadas en soporte básico.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "power-bi",
+    "name": "Power BI",
+    "area": "datos",
+    "description": "Aprende a diseñar dashboards, reportes visuales e indicadores para analizar información y presentar resultados con claridad.",
+    "audience": "administrativos, ventas, analistas, emprendedores y equipos de gestión.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "marketing-digital-pymes",
+    "name": "Marketing Digital y Redes Sociales para Emprendedores y PYMES",
+    "area": "negocios",
+    "description": "Aprende estrategias clave para mejorar tu presencia en línea, conectar con clientes y fortalecer tus oportunidades de venta.",
+    "audience": "emprendedores, negocios locales, marcas personales y PYMES.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "excel-1",
+    "name": "Excel Nivel 1",
+    "area": "productividad",
+    "description": "Aprende Excel desde cero para gestionar datos, realizar cálculos básicos y crear reportes útiles para tu trabajo.",
+    "audience": "principiantes, estudiantes, administrativos y emprendedores.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "excel-2",
+    "name": "Excel Nivel 2",
+    "area": "productividad",
+    "description": "Lleva tus habilidades al siguiente nivel con funciones, análisis de información y herramientas para mejorar tu productividad.",
+    "audience": "quienes ya conocen lo básico y quieren trabajar más rápido.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "excel-3",
+    "name": "Excel Nivel 3",
+    "area": "productividad",
+    "description": "Aprende a crear macros, automatizar tareas y utilizar conceptos de Visual Basic para optimizar procesos.",
+    "audience": "usuarios intermedios que quieren automatizar reportes y procesos.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  },
+  {
+    "slug": "powerpoint-ia",
+    "name": "Del Power Point a la AI",
+    "area": "creatividad",
+    "description": "Aprende a integrar herramientas de inteligencia artificial y Canva para crear recursos didácticos y planeaciones innovadoras.",
+    "audience": "docentes, capacitadores y creadores de contenido educativo.",
+    "status": "Consultar disponibilidad",
+    "whatsapp": "522216524750",
+    "topics": []
+  }
+]

@@ -392,13 +392,20 @@
     ];
 
     cards.forEach((card) => {
-      const text = normalizeText(card.textContent);
-      const profiles = [];
-      if(/software|sistemas|computacionales|ti|datos|nube|programacion/.test(text)) profiles.push('tech');
-      if(/administracion|mercadotecnia|negocio|finanzas|gestion|empresa/.test(text)) profiles.push('business');
-      if(/diseno|creativ|interactivo|marca|campana|contenido/.test(text)) profiles.push('creative');
-      if(/industrial|calidad|productividad|procesos|operacion/.test(text)) profiles.push('operations');
-      card.dataset.profile = profiles.length ? profiles.join(' ') : 'business';
+      const slug=(card.querySelector('a[href$=".html"]')?.getAttribute('href')||'').replace('.html','');
+      const profilesByProgram={
+        'administracion-y-sistemas':['business','tech'],
+        'mercadotecnia-digital':['business','creative'],
+        'diseno-interactivo':['creative','tech'],
+        'sistemas-computacionales':['tech'],
+        'ingenieria-en-software':['tech'],
+        'ingenieria-industrial':['operations'],
+        'maestria-en-administracion':['business'],
+        'maestria-en-calidad-y-productividad':['operations'],
+        'maestria-en-innovacion-y-gestion-de-proyectos-de-ti':['tech','business'],
+        'educacion-continua':['tech','business','creative','operations']
+      };
+      card.dataset.profile=(profilesByProgram[slug]||[]).join(' ');
     });
 
     const controls = document.createElement('div');
