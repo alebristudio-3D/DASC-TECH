@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "administracion-y-sistemas",
+    "name": "Administración y Sistemas",
+    "duration": "8 semestres",
+    "rvoe": "SE-SES/21/114/01/2888/2023/SIE",
+    "description": "Administración de organizaciones y herramientas de sistemas.",
+    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "administracion-y-sistemas.html"
+  },
+  {
+    "slug": "mercadotecnia-digital",
+    "name": "Mercadotecnia Digital",
+    "duration": "9 cuatrimestres",
+    "rvoe": "20242491",
+    "description": "Estrategia de marca, comunicación y mercadotecnia digital.",
+    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "mercadotecnia-digital.html"
+  },
+  {
+    "slug": "diseno-interactivo",
+    "name": "Diseño Interactivo",
+    "duration": "8 semestres",
+    "rvoe": "SE-SES/21/114/01/2881/2023/SIE",
+    "description": "Diseño de interfaces, animación y experiencias digitales.",
+    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "diseno-interactivo.html"
+  },
+  {
+    "slug": "sistemas-computacionales",
+    "name": "Sistemas Computacionales",
+    "duration": "9 cuatrimestres",
+    "rvoe": "20242490",
+    "description": "Programación, redes e infraestructura tecnológica.",
+    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "sistemas-computacionales.html"
+  },
+  {
+    "slug": "ingenieria-en-software",
+    "name": "Ingeniería en Software",
+    "duration": "8 semestres",
+    "rvoe": "SE-SES/21/114/01/2886/2023/SIE",
+    "description": "Desarrollo de aplicaciones, pruebas y calidad de software.",
+    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "ingenieria-en-software.html"
+  },
+  {
+    "slug": "ingenieria-industrial",
+    "name": "Ingeniería Industrial",
+    "duration": "8 semestres",
+    "rvoe": "SE-SES/21/114/01/2887/2023/SIE",
+    "description": "Procesos productivos, calidad, logística y mejora continua.",
+    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
+    "intake": "Solicitar próximo ingreso y disponibilidad.",
+    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "updated": "2026-11-12",
+    "source": "ingenieria-industrial.html"
+  }
+]
