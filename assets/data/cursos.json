@@ -7,7 +7,17 @@
     "audience": "personas que quieren iniciar desde cero o fortalecer sus bases digitales.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 850,
+    "demoDate": "2027-01-11",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "presentaciones-canva",
@@ -17,7 +27,17 @@
     "audience": "docentes, estudiantes, emprendedores y profesionistas.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 900,
+    "demoDate": "2027-01-12",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "ia-contenidos",
@@ -27,7 +47,17 @@
     "audience": "creadores, docentes, equipos de marketing y emprendedores.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 950,
+    "demoDate": "2027-01-13",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "mantenimiento-pc",
@@ -37,7 +67,17 @@
     "audience": "usuarios, técnicos principiantes y personas interesadas en soporte básico.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1000,
+    "demoDate": "2027-01-14",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "power-bi",
@@ -47,7 +87,17 @@
     "audience": "administrativos, ventas, analistas, emprendedores y equipos de gestión.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1050,
+    "demoDate": "2027-01-15",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "marketing-digital-pymes",
@@ -57,7 +107,17 @@
     "audience": "emprendedores, negocios locales, marcas personales y PYMES.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1100,
+    "demoDate": "2027-01-16",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "excel-1",
@@ -67,7 +127,17 @@
     "audience": "principiantes, estudiantes, administrativos y emprendedores.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1150,
+    "demoDate": "2027-01-17",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "excel-2",
@@ -77,7 +147,17 @@
     "audience": "quienes ya conocen lo básico y quieren trabajar más rápido.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1200,
+    "demoDate": "2027-01-18",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "excel-3",
@@ -87,7 +167,17 @@
     "audience": "usuarios intermedios que quieren automatizar reportes y procesos.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1250,
+    "demoDate": "2027-01-19",
+    "demoHours": 12,
+    "demoSessions": 4
   },
   {
     "slug": "powerpoint-ia",
@@ -97,6 +187,16 @@
     "audience": "docentes, capacitadores y creadores de contenido educativo.",
     "status": "Consultar disponibilidad",
     "whatsapp": "522216524750",
-    "topics": []
+    "topics": [
+      "Introducción y diagnóstico del escenario",
+      "Práctica guiada con una herramienta",
+      "Desarrollo de un ejercicio integrador",
+      "Revisión y explicación del resultado"
+    ],
+    "demo": true,
+    "demoPrice": 1300,
+    "demoDate": "2027-01-20",
+    "demoHours": 12,
+    "demoSessions": 4
   }
 ]

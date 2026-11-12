@@ -5,12 +5,17 @@
     "duration": "8 semestres",
     "rvoe": "SE-SES/21/114/01/2888/2023/SIE",
     "description": "Administración de organizaciones y herramientas de sistemas.",
-    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
     "source": "administracion-y-sistemas.html",
-    "level": "Licenciatura"
+    "level": "Licenciatura",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "mercadotecnia-digital",
@@ -18,12 +23,17 @@
     "duration": "9 cuatrimestres",
     "rvoe": "20242491",
     "description": "Estrategia de marca, comunicación y mercadotecnia digital.",
-    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
     "source": "mercadotecnia-digital.html",
-    "level": "Licenciatura"
+    "level": "Licenciatura",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "diseno-interactivo",
@@ -31,12 +41,17 @@
     "duration": "8 semestres",
     "rvoe": "SE-SES/21/114/01/2881/2023/SIE",
     "description": "Diseño de interfaces, animación y experiencias digitales.",
-    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
     "source": "diseno-interactivo.html",
-    "level": "Licenciatura"
+    "level": "Licenciatura",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "sistemas-computacionales",
@@ -44,12 +59,17 @@
     "duration": "9 cuatrimestres",
     "rvoe": "20242490",
     "description": "Programación, redes e infraestructura tecnológica.",
-    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
     "source": "sistemas-computacionales.html",
-    "level": "Licenciatura"
+    "level": "Licenciatura",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "ingenieria-en-software",
@@ -57,12 +77,17 @@
     "duration": "8 semestres",
     "rvoe": "SE-SES/21/114/01/2886/2023/SIE",
     "description": "Desarrollo de aplicaciones, pruebas y calidad de software.",
-    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
     "source": "ingenieria-en-software.html",
-    "level": "Ingeniería"
+    "level": "Ingeniería",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "ingenieria-industrial",
@@ -70,50 +95,70 @@
     "duration": "8 semestres",
     "rvoe": "SE-SES/21/114/01/2887/2023/SIE",
     "description": "Procesos productivos, calidad, logística y mejora continua.",
-    "schedule": "Confirmar horario y modalidad disponibles con admisiones.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
     "source": "ingenieria-industrial.html",
-    "level": "Ingeniería"
+    "level": "Ingeniería",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "maestria-en-administracion",
     "name": "Maestría en Administración",
     "level": "Maestría",
-    "duration": "Solicita duración y organización del plan vigente.",
+    "duration": "EJEMPLO: 24 meses · 4 semestres",
     "rvoe": "SEP-SES/21/114/01/2238/2018",
     "description": "Dirección de organizaciones, decisiones financieras y gestión de equipos.",
-    "schedule": "Confirmar horario, modalidad y actividades presenciales.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
-    "source": "maestria-en-administracion.html"
+    "source": "maestria-en-administracion.html",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "maestria-en-calidad-y-productividad",
     "name": "Maestría en Calidad y Productividad",
     "level": "Maestría",
-    "duration": "Solicita duración y organización del plan vigente.",
+    "duration": "EJEMPLO: 24 meses · 4 semestres",
     "rvoe": "20242492",
     "description": "Diagnóstico de procesos, gestión de calidad y evaluación de mejoras.",
-    "schedule": "Confirmar horario, modalidad y actividades presenciales.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
-    "source": "maestria-en-calidad-y-productividad.html"
+    "source": "maestria-en-calidad-y-productividad.html",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   },
   {
     "slug": "maestria-en-innovacion-y-gestion-de-proyectos-de-ti",
     "name": "Maestría en Innovación y Gestión de Proyectos de TI",
     "level": "Maestría",
-    "duration": "Solicita duración y organización del plan vigente.",
+    "duration": "EJEMPLO: 24 meses · 4 semestres",
     "rvoe": "Consultar acuerdo oficial",
     "description": "Dirección de proyectos tecnológicos, innovación y alineación con el negocio.",
-    "schedule": "Confirmar horario, modalidad y actividades presenciales.",
-    "intake": "Solicitar próximo ingreso y disponibilidad.",
-    "costs": "Solicitar desglose vigente de inscripción, colegiaturas y cargos adicionales.",
+    "schedule": "EJEMPLO: sábados de 8:00 a 14:00; sujeto a sustitución.",
+    "intake": "EJEMPLO: enero de 2027, sin convocatoria real.",
+    "costs": "EJEMPLO: inscripción $1,500 + colegiatura mensual $2,500 MXN. No es cotización.",
     "updated": "2026-11-12",
-    "source": "maestria-en-innovacion-y-gestion-de-proyectos-de-ti.html"
+    "source": "maestria-en-innovacion-y-gestion-de-proyectos-de-ti.html",
+    "demo": true,
+    "demoFacts": {
+      "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
+      "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
+    }
   }
 ]
