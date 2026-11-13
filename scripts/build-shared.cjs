@@ -12,6 +12,8 @@ for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.html'))){
  if(!html.includes('js/admissions-tools.js'))html=html.replace('</body>','<script src="js/measurement.js" defer></script><script src="js/admissions-tools.js" defer></script></body>');
  if(!html.includes('css/unified-system.css'))html=html.replace('</head>','<link rel="stylesheet" href="css/unified-system.css?v=20261112"></head>');
  if(!html.includes('css/admissions-tools.css'))html=html.replace('</head>','<link rel="stylesheet" href="css/admissions-tools.css"></head>');
+ if(!html.includes('js/privacy.js'))html=html.replace('<script src="js/measurement.js"','<script src="js/privacy.js?v=20261113" defer></script><script src="js/measurement.js"');
+ if(!html.includes('css/privacy.css'))html=html.replace('</head>','<link rel="stylesheet" href="css/privacy.css?v=20261113"><link rel="stylesheet" href="css/surfaces.css?v=20261113"><link rel="stylesheet" href="css/fonts-local.css"></head>');
  const p=programs.find(p=>p.slug+'.html'===file);
  if(p&&!html.includes('data-program-actions'))html=html.replace('</main>',`<section class="site-container admission-tools" data-program-actions><h2>Prepara tu siguiente paso</h2><p>Consulta el proceso, solicita costos o prepara una visita. Las fechas y condiciones se confirman con admisiones.</p><div class="admission-actions"><a class="site-btn" href="admisiones.html?program=${p.slug}">Admisiones y visita</a><a class="site-btn" href="ficha-carrera.html?program=${p.slug}">Ficha para compartir con tu familia</a><a class="site-btn" href="comparar-carreras.html?programs=${p.slug}">Comparar carreras</a></div></section></main>`);
  fs.writeFileSync(path.join(root,file),html.replace(/\r\n/g,'\n').split('\n').map(line=>line.trimEnd()).join(newline)); 

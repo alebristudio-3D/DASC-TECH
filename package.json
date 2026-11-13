@@ -4,6 +4,8 @@
   },
   "private": true,
   "scripts": {
-    "sync:shell": "node scripts/build-shared.cjs && node scripts/unify-shell.cjs"
+    "sync:shell": "node scripts/build-shared.cjs && node scripts/unify-shell.cjs",
+    "check:site": "node scripts/check-experience.cjs",
+    "start": "node scripts/serve-preview.cjs"
   }
 }

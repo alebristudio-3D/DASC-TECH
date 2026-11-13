@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+500&display=swap');
 :root{--tech-ink:#071a36;--tech-blue:#003399;--tech-cyan:#6ce5ff;--tech-line:#dce5f0}
 body{background:#f8faff;color:var(--tech-ink)}
 .demo-strip{padding:9px 20px;background:#e9f1ff;color:#173865;font:11px/1.6 'IBM Plex Mono',monospace;text-align:center;border-bottom:1px solid #d4e1f4}.demo-strip a{color:#003399;text-decoration:underline}

@@ -57,7 +57,7 @@
   });
 
   document.addEventListener('keydown', (event) => {
-    if(event.key === 'Escape') closeMenu();
+    if(event.key === 'Escape'){const wasOpen=menu?.classList.contains('is-open');closeMenu();if(wasOpen)toggle?.focus();}
   });
 
   if(desktopQuery.addEventListener){
@@ -88,11 +88,11 @@
     strip.setAttribute('aria-label', 'Misiones para explorar DASC');
     strip.innerHTML = [
       '<div class="site-container site-mission-strip__inner">',
-      '<div class="site-mission-head"><span>Modo aventura académica</span><h2>Desbloquea tu ruta tecnológica.</h2><p>Explora programas, compara modalidades y agenda informes como una ruta de decisión clara.</p></div>',
+      '<div class="site-mission-head"><span>Elige tu siguiente paso</span><h2>Explora, compara y resuelve tus dudas.</h2><p>Revisa la oferta, consulta cómo estudiar y solicita información para decidir.</p></div>',
       '<div class="site-mission-grid">',
       '<a class="site-mission-card" href="oferta-educativa.html" data-track="mission_offer"><strong>01</strong><span>Explora carreras</span><i></i></a>',
-      '<a class="site-mission-card" href="modalidad-hyflex.html" data-track="mission_hyflex"><strong>02</strong><span>Activa HyFlex</span><i></i></a>',
-      '<a class="site-mission-card" href="https://wa.me/5212223606438?text=Hola%20DASC%2C%20quiero%20recibir%20orientaci%C3%B3n%20para%20elegir%20mi%20programa." data-track="mission_whatsapp" target="_blank" rel="noopener noreferrer"><strong>03</strong><span>Agenda asesoría</span><i></i></a>',
+      '<a class="site-mission-card" href="modalidad-hyflex.html" data-track="mission_hyflex"><strong>02</strong><span>Conoce HyFlex</span><i></i></a>',
+      '<a class="site-mission-card" href="https://wa.me/5212223606438?text=Hola%20DASC%2C%20quiero%20recibir%20orientaci%C3%B3n%20para%20elegir%20mi%20programa." data-track="mission_whatsapp" target="_blank" rel="noopener noreferrer"><strong>03</strong><span>Solicita orientación</span><i></i></a>',
       '</div>',
       '</div>'
     ].join('');
@@ -126,7 +126,8 @@
     if(!a) return;
     const href = a.href || a.getAttribute('href') || '';
     const label = a.dataset.track || a.dataset.origin || a.dataset.waOrigin || a.textContent.trim().slice(0, 90);
-    const payload = { click_label: label, click_url: href, page_path: location.pathname };
+    let safeUrl;try{const url=new URL(href,location.href);safeUrl=url.protocol==='tel:'?'tel:':url.protocol==='mailto:'?'mailto:':url.origin+url.pathname;}catch{safeUrl='';}
+    const payload = { click_label: label, click_url: safeUrl, page_path: location.pathname };
     if(href.includes('wa.me') || href.includes('api.whatsapp')){
       track('whatsapp_open', { ...payload, event_category: 'lead' });
     } else if(href.toLowerCase().includes('.pdf')){

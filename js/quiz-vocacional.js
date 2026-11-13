@@ -6,7 +6,7 @@ const splashScreen = document.querySelector("[data-splash-screen]");
 
 const WHATSAPP_NUMBER = "5212223606438";
 const LEAD_WEBHOOK_URL = "";
-const PRIVACY_NOTICE_URL = "https://dasc.edu.mx/aviso-de-privacidad/";
+const PRIVACY_NOTICE_URL = "privacidad-web.html";
 const scaleLabels = [
   { value: 1, label: "Nada" },
   { value: 2, label: "Poco" },
@@ -496,13 +496,7 @@ const steps = [
   },
 ];
 
-const leadCache = (() => {
-  try {
-    return JSON.parse(localStorage.getItem("dasc-vocacional-lead") || "{}");
-  } catch {
-    return {};
-  }
-})();
+const leadCache = {};
 
 const state = {
   screen: "step",
@@ -1319,16 +1313,7 @@ document.addEventListener("submit", async (event) => {
     privacy: formData.get("privacy") === "on",
   };
 
-  try {
-    localStorage.setItem(
-      "dasc-vocacional-lead",
-      JSON.stringify({
-        name: state.lead.name,
-        whatsapp: state.lead.whatsapp,
-        email: state.lead.email,
-      })
-    );
-  } catch {}
+  // Contact details stay in memory; do not retain them on shared devices.
 
   try {
     await sendLeadToWebhook(getLeadPayload());
