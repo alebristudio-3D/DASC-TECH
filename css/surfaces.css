@@ -1,0 +1,16 @@
+/* Foreground and background are paired per component, including gradients. */
+body.dasc-shell main .surface-dark{background:#003399!important;background-image:none!important;color:#fff!important}
+body.dasc-shell main .surface-dark :is(h1,h2,h3,h4,p,li,span,strong,small,label,summary){color:#fff!important}
+body.dasc-shell main .surface-dark a{color:#fff!important}
+body.dasc-shell main .surface-dark :is(.dasc-btn-light,.dasc-hyflex-btn-primary,.dasc-btn-primary,.site-btn){background:#fff!important;color:#003399!important;border:1px solid #fff!important}
+body.dasc-shell main .surface-dark :is(.dasc-ec-btn-light,.dasc-contact-btn-primary,.dasc-becas-btn-light,.dasc-becas-btn-download,.dasc-reg-btn){background:#fff!important;color:#003399!important;border:1px solid #fff!important}
+body.dasc-shell main .surface-dark :is(.dasc-hyflex-benefit-icon,.dasc-hyflex-benefit-icon span){color:#003399!important}
+body.dasc-shell main .surface-light{background:#f4f7fb!important;background-image:none!important;color:#102440!important;border:1px solid #dbe4f0}
+body.dasc-shell main .surface-light :is(h2,h3,p,li,span,strong,small){color:#102440!important}
+body.dasc-shell main .surface-dark .dasc-hyflex-benefit{background:#ffffff12!important;border-color:#ffffff50!important}
+body.dasc-shell main .surface-dark .dasc-hyflex-benefit-icon{background:#fff!important;color:#003399!important}
+body.dasc-shell main .site-mission-card strong{background:#fff!important;background-image:none!important;color:#003399!important;-webkit-text-fill-color:#003399!important}
+body.dasc-shell main .dasc-benefit>strong{background:#003399!important;background-image:none!important;color:#fff!important;-webkit-text-fill-color:#fff!important}
+body.dasc-shell main input::placeholder,body.dasc-shell main textarea::placeholder{color:#52657f!important;opacity:1}
+body.dasc-shell main :is(.dasc-form__note,.dasc-contact-form-note,.dasc-hyflex-form-note){color:#40536b!important}
+@media print{body.dasc-shell main .surface-dark{background:white!important}body.dasc-shell main .surface-dark :is(h1,h2,h3,p,span,li){color:black!important}}

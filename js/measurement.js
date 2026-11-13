@@ -1,0 +1,4 @@
+(function(){
+ 'use strict';let loaded=false;function start(){if(loaded||!window.DASCPrivacy?.analyticsAllowed())return;loaded=true;const id=window.DASC_ANALYTICS_ID;window['ga-disable-'+id]=false;window.dataLayer=[];window.gtag=function(){window.dataLayer.push(arguments);};window.gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});window.gtag('js',new Date());window.gtag('config',id,{allow_google_signals:false,allow_ad_personalization_signals:false,page_location:location.origin+location.pathname});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(id);s.dataset.optionalAnalytics='';document.head.append(s);}
+ document.addEventListener('dasc:privacychange',start);start();
+})();

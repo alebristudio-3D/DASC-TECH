@@ -1,0 +1,15 @@
+/* El color oficial distingue al programa; el contraste determina el color del texto. */
+body.program-palette.dasc-shell .unified-hero{background-color:var(--program-color)!important;background-image:linear-gradient(#ffffff10 1px,transparent 1px),linear-gradient(90deg,#ffffff10 1px,transparent 1px)!important;color:var(--program-on)!important}
+body.program-palette.dasc-shell .unified-hero :is(h1,p,.tech-eyebrow,.unified-breadcrumb,.unified-breadcrumb a,.unified-brief dt,.unified-brief dd,.unified-brief small){color:var(--program-on)!important}
+body.program-palette.dasc-shell .unified-brief{background:transparent!important;border:1px solid currentColor!important;border-top:3px solid currentColor!important;color:var(--program-on)!important}
+body.program-palette.dasc-shell .unified-actions a{background:var(--program-on)!important;color:var(--program-color)!important;border:1px solid var(--program-on)!important}
+body.program-palette.dasc-shell .unified-actions a+a{background:transparent!important;color:var(--program-on)!important}
+body.program-palette.dasc-shell main :is(.dasc-btn--primary,.dasc-btn-primary,.dasc-di-btn-primary,.admission-tools button,.admission-tools .site-btn){background:var(--program-color)!important;color:var(--program-on)!important;border-color:var(--program-color)!important}
+body.dasc-shell main .program-color-card{border-top:6px solid var(--program-color)!important;border-left:1px solid #dbe4f0!important;background:#fff!important}
+body.dasc-shell main .program-color-card .dasc-level{background:var(--program-color)!important;color:var(--program-on)!important;background-image:none!important;border:0!important;padding:7px 12px;border-radius:4px}
+body.dasc-shell main .program-color-card .dasc-card-link.primary{background:var(--program-color)!important;color:var(--program-on)!important;border-color:var(--program-color)!important}
+body.dasc-shell main .dasc-level{background:#003399!important;color:#fff!important;background-image:none!important}
+body.dasc-shell main :is(.dasc-ec-btn-wa,.dasc-btn-whatsapp){background:#087c3e!important;background-image:none!important;color:#fff!important}
+body.dasc-shell main :is(.dasc-ec-feature-icon){background:#003399!important;color:#fff!important;background-image:none!important}
+body.dasc-shell #dasc-diseno-interactivo .dasc-di-subjects li{color:#102440!important}
+body.dasc-shell main .program-color-card .dasc-card-visual{background:var(--program-color)!important}body.dasc-shell main .program-color-card .dasc-card-visual::before{background:radial-gradient(circle at 18% 18%,#ffffff25,transparent 45%)!important}
