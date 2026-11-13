@@ -15,7 +15,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#d0ab15"
   },
   {
     "slug": "mercadotecnia-digital",
@@ -33,7 +34,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#49b69f"
   },
   {
     "slug": "diseno-interactivo",
@@ -51,7 +53,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#bf1bcc"
   },
   {
     "slug": "sistemas-computacionales",
@@ -69,7 +72,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#0099d6"
   },
   {
     "slug": "ingenieria-en-software",
@@ -87,7 +91,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#c12f28"
   },
   {
     "slug": "ingenieria-industrial",
@@ -105,7 +110,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#969596"
   },
   {
     "slug": "maestria-en-administracion",
@@ -123,7 +129,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#a17d36"
   },
   {
     "slug": "maestria-en-calidad-y-productividad",
@@ -141,7 +148,8 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#028d39"
   },
   {
     "slug": "maestria-en-innovacion-y-gestion-de-proyectos-de-ti",
@@ -159,6 +167,7 @@
     "demoFacts": {
       "entry": "EJEMPLO: identificación, acta, certificado previo y entrevista de orientación.",
       "graduation": "EJEMPLO: proyecto integrador y revisión académica; no es una opción oficial confirmada."
-    }
+    },
+    "color": "#425e9d"
   }
 ]
